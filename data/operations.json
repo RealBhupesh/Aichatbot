@@ -1,0 +1,29 @@
+{
+  "hotelClosedDates": [],
+  "rooms": {
+    "standard-queen": {
+      "inventory": 11,
+      "pricePerNight": 6500,
+      "closed": false,
+      "blackouts": []
+    },
+    "deluxe-king": {
+      "inventory": 8,
+      "pricePerNight": 8200,
+      "closed": false,
+      "blackouts": []
+    },
+    "family-room": {
+      "inventory": 5,
+      "pricePerNight": 8500,
+      "closed": false,
+      "blackouts": []
+    },
+    "executive-suite": {
+      "inventory": 3,
+      "pricePerNight": 14500,
+      "closed": false,
+      "blackouts": []
+    }
+  }
+}

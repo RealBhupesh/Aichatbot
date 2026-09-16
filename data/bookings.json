@@ -1,0 +1,52 @@
+{
+  "holds": [
+    {
+      "token": "fa5b122894681442.af9f8cb68144b3c752a514bc593bcfa73cccc73488d2e27df2131b89f0906366",
+      "roomId": "standard-queen",
+      "roomName": "Standard Queen",
+      "checkIn": "2026-09-21",
+      "checkOut": "2026-09-23",
+      "guests": 2,
+      "guestName": "Asha Patel",
+      "guestEmail": "asha@example.com",
+      "guestPhone": "+91 98765 43210",
+      "nights": 2,
+      "pricePerNight": 6500,
+      "totalPrice": 13000,
+      "createdAt": "2026-09-16T11:28:50.206Z",
+      "expiresAt": "2026-09-17T09:00:00.000Z",
+      "sessionId": "38ae8999-8ac4-4ea5-a236-7dc5f195d5a6",
+      "id": "fa5b122894681442",
+      "confirmationCode": "AST-90F2",
+      "status": "confirmed",
+      "confirmedAt": "2026-09-16T11:28:50.207Z",
+      "specialRequests": null,
+      "cancelledAt": null,
+      "updatedAt": "2026-09-16T11:28:50.208Z"
+    },
+    {
+      "token": "b973cc2132f35b35.7feb6a8dac4717bdd91b30663728bd09f8f8cca71e04f4691761a51b616ceece",
+      "roomId": "family-room",
+      "roomName": "Family Room",
+      "checkIn": "2026-09-20",
+      "checkOut": "2026-09-22",
+      "guests": 3,
+      "guestName": "Priya Sharma",
+      "guestEmail": "priya@example.com",
+      "guestPhone": "+91 98765 43210",
+      "nights": 2,
+      "pricePerNight": 8500,
+      "totalPrice": 17000,
+      "createdAt": "2026-09-16T11:32:22.475Z",
+      "expiresAt": "2026-09-17T11:32:20.692Z",
+      "sessionId": "205c9455-3771-41d4-b438-87c992a41242",
+      "id": "b973cc2132f35b35",
+      "confirmationCode": "AST-7D4E",
+      "status": "confirmed",
+      "confirmedAt": "2026-09-16T11:41:35.405Z",
+      "specialRequests": null,
+      "cancelledAt": null,
+      "updatedAt": "2026-09-16T11:41:35.405Z"
+    }
+  ]
+}

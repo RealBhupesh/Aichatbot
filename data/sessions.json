@@ -1,0 +1,5959 @@
+{
+  "sessions": {
+    "c71c8e04-226d-4074-8293-004b9cfc0040": {
+      "id": "c71c8e04-226d-4074-8293-004b9cfc0040",
+      "createdAt": "2026-09-16T09:23:30.155Z",
+      "updatedAt": "2026-09-16T10:27:22.376Z",
+      "messages": [
+        {
+          "role": "user",
+          "content": "I have 4 people",
+          "at": "2026-09-16T09:34:17.396Z"
+        },
+        {
+          "role": "assistant",
+          "content": "Got it – the Family Room fits up to 4 guests. Please share the guest’s name and a contact email or phone number, and I’ll place the hold for 17 Sep – 18 Sep.",
+          "at": "2026-09-16T09:34:17.397Z"
+        },
+        {
+          "role": "user",
+          "content": "check room availability right now urgently under 5k budget",
+          "at": "2026-09-16T09:35:11.802Z"
+        },
+        {
+          "role": "assistant",
+          "content": "I couldn't find anything under ₹5,000/night for those dates. The lowest available option is the Standard Queen at ₹6,500/night.",
+          "at": "2026-09-16T09:35:11.803Z"
+        },
+        {
+          "role": "user",
+          "content": "what is the location of your hotel ?",
+          "at": "2026-09-16T09:48:58.546Z"
+        },
+        {
+          "role": "assistant",
+          "content": "I'm well, thank you. I'm Leela at the Asteria desk — rooms, check-in, breakfast, or dates, what can I help with?",
+          "at": "2026-09-16T09:48:58.546Z"
+        },
+        {
+          "role": "user",
+          "content": "address of your hotel",
+          "at": "2026-09-16T09:49:27.946Z"
+        },
+        {
+          "role": "assistant",
+          "content": "Asteria Grand Hotel is located at **14 Baga Road, Calangute, Goa 403516, India** – just a short walk from the beach.",
+          "at": "2026-09-16T09:49:27.946Z"
+        },
+        {
+          "role": "user",
+          "content": "what are you doing ?",
+          "at": "2026-09-16T09:51:10.076Z"
+        },
+        {
+          "role": "assistant",
+          "content": "I’m here to help with any questions you have about Asteria Grand Hotel—whether it’s checking room availability, rates, amenities, or making a reservation. How can I assist you today?",
+          "at": "2026-09-16T09:51:10.077Z"
+        },
+        {
+          "role": "user",
+          "content": "room tomorrow 5 people check",
+          "at": "2026-09-16T09:51:28.800Z"
+        },
+        {
+          "role": "assistant",
+          "content": "I’m sorry, but none of our rooms can accommodate 5 guests in a single night (our largest rooms fit 4 guests). If you’d like, we can look at splitting the party into two rooms or explore other dates. Let me know how you’d like to proceed.",
+          "at": "2026-09-16T09:51:28.801Z"
+        },
+        {
+          "role": "user",
+          "content": "2",
+          "at": "2026-09-16T09:52:09.941Z"
+        },
+        {
+          "role": "assistant",
+          "content": "I’m sorry, but we don’t have any rooms under ₹5,000 per night for a 2‑guest stay on 17 – 18 September. The most affordable option available is the Standard Queen at ₹6,500 per night. Let me know if you’d like to explore that room or consider a different budget or date.",
+          "at": "2026-09-16T09:52:09.948Z"
+        },
+        {
+          "role": "user",
+          "content": "Can I speak with someone at the front desk?",
+          "at": "2026-09-16T09:53:06.126Z"
+        },
+        {
+          "role": "assistant",
+          "content": "I’ve flagged your request for the front‑desk team. A staff member will reach out shortly. If you need immediate assistance, you can call us at **+91 832 555 0142** and mention ticket C8F583F0.",
+          "at": "2026-09-16T09:53:06.126Z"
+        },
+        {
+          "role": "user",
+          "content": "hey how's you doing",
+          "at": "2026-09-16T09:56:05.377Z"
+        },
+        {
+          "role": "assistant",
+          "content": "I’m doing great, thanks for asking! How can I assist you with your stay at Asteria Grand Hotel today?",
+          "at": "2026-09-16T09:56:05.378Z"
+        },
+        {
+          "role": "user",
+          "content": "show me rooms and their pics",
+          "at": "2026-09-16T09:56:36.802Z"
+        },
+        {
+          "role": "assistant",
+          "content": "Here’s a quick look at the four room types we offer:\n\n| Room | Sleeps | Price per night (INR) | Breakfast |\n|------|--------|----------------------|-----------|\n| **Standard Queen** | 2 | 6,500 | Not included (₹950 per adult if added) |\n| **Deluxe King** | 2 | 8,200 | Included |\n| **Family Room** | 4 | 8,500 | Included |\n| **Executive Suite** | 3 | 14,500 | Included |\n\n**Photos**\n\n| Room | Image |\n|------|-------|\n| Standard Queen | ![Standard Queen](/hotel/room-standard-queen.png) |\n| Deluxe King | ![Deluxe King](/hotel/room-deluxe-king.png) |\n| Family Room | ![Family Room](/hotel/room-family.png) |\n| Executive Suite | ![Executive Suite](/hotel/room-executive-suite.png) |\n\nLet me know which room you’d like more details on or if you’d like to check availability for any dates!",
+          "at": "2026-09-16T09:56:36.802Z"
+        },
+        {
+          "role": "user",
+          "content": "book for 2 people tomorrow any room under 7k",
+          "at": "2026-09-16T10:00:32.450Z"
+        },
+        {
+          "role": "assistant",
+          "content": "We have a Standard Queen available for **₹6,500** per night for 2 guests on 17 – 18 September. It fits your budget.\n\nWould you like me to place a hold on this room? If so, please provide your name and either an email address or phone number.",
+          "at": "2026-09-16T10:00:32.450Z"
+        },
+        {
+          "role": "user",
+          "content": "book 2 people tomorrow 7k budget",
+          "at": "2026-09-16T10:01:01.707Z"
+        },
+        {
+          "role": "assistant",
+          "content": "Great! I can place a hold on a Standard Queen for 2 guests on 17 – 18 September at ₹6,500 per night, which is within your ₹7,000 budget.\n\nCould you please share either an email address or a phone number (or both) so I can complete the reservation hold for you?",
+          "at": "2026-09-16T10:01:01.707Z"
+        },
+        {
+          "role": "user",
+          "content": "book rooms for 3 people",
+          "at": "2026-09-16T10:25:59.659Z"
+        },
+        {
+          "role": "assistant",
+          "content": "Could you let me know the dates you’d like to stay? (Check‑in and check‑out) That will help me find the right room for your party of three.",
+          "at": "2026-09-16T10:25:59.659Z"
+        },
+        {
+          "role": "user",
+          "content": "tomorrow ?",
+          "at": "2026-09-16T10:26:36.592Z"
+        },
+        {
+          "role": "assistant",
+          "content": "I’m sorry, but we don’t have any rooms under ₹7,000 per night for 3 guests on 17 – 18 September. The most affordable option for your party is the **Family Room** at ₹8,500 per night, which includes breakfast and can accommodate up to 4 people.\n\nWould you like to proceed with the Family Room, or should I explore other dates or options for you?",
+          "at": "2026-09-16T10:26:36.593Z"
+        },
+        {
+          "role": "user",
+          "content": "yeah sure show me the family room frist",
+          "at": "2026-09-16T10:27:22.375Z"
+        },
+        {
+          "role": "assistant",
+          "content": "**Family Room** – sleeps up to 4 guests (king + sofa bed)  \n₹8,500 per night, **breakfast included**. It’s our most popular choice for small families or groups.\n\nWould you like me to place a hold for 2 nights (17 – 19 September) or just 1 night (17 – 18 September) for your three guests? If so, please share your name and an email address or phone number.",
+          "at": "2026-09-16T10:27:22.376Z"
+        }
+      ],
+      "stay": {
+        "checkIn": "2026-09-17",
+        "checkOut": "2026-09-18",
+        "guests": 3,
+        "maxBudget": 7000,
+        "selectedRoomId": "family-room"
+      },
+      "guest": {
+        "name": "our stay",
+        "email": null,
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": "2026-09-16T10:27:22.375Z",
+      "staffLastReadAt": null
+    },
+    "d4392d42-be55-4973-8161-8321a3435c19": {
+      "id": "d4392d42-be55-4973-8161-8321a3435c19",
+      "createdAt": "2026-09-16T09:23:35.743Z",
+      "updatedAt": "2026-09-16T09:23:35.743Z",
+      "messages": [],
+      "stay": {
+        "checkIn": null,
+        "checkOut": null,
+        "guests": null,
+        "maxBudget": null,
+        "selectedRoomId": null
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "786116a6-4127-4492-bafa-51fd4e1c5a3a": {
+      "id": "786116a6-4127-4492-bafa-51fd4e1c5a3a",
+      "createdAt": "2026-09-16T09:23:35.747Z",
+      "updatedAt": "2026-09-16T09:23:35.747Z",
+      "messages": [],
+      "stay": {
+        "checkIn": null,
+        "checkOut": null,
+        "guests": null,
+        "maxBudget": null,
+        "selectedRoomId": null
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "5685c966-722c-48a8-bfde-129cdb1ec0d7": {
+      "id": "5685c966-722c-48a8-bfde-129cdb1ec0d7",
+      "createdAt": "2026-09-16T09:23:35.747Z",
+      "updatedAt": "2026-09-16T09:23:35.747Z",
+      "messages": [],
+      "stay": {
+        "checkIn": null,
+        "checkOut": null,
+        "guests": null,
+        "maxBudget": null,
+        "selectedRoomId": null
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "ca278700-0df9-41dd-8be0-18e8991b259f": {
+      "id": "ca278700-0df9-41dd-8be0-18e8991b259f",
+      "createdAt": "2026-09-16T09:23:35.764Z",
+      "updatedAt": "2026-09-16T09:23:35.764Z",
+      "messages": [],
+      "stay": {
+        "checkIn": null,
+        "checkOut": null,
+        "guests": null,
+        "maxBudget": null,
+        "selectedRoomId": null
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "ac3acaa2-2751-49e0-8d4b-d5b258e51bdc": {
+      "id": "ac3acaa2-2751-49e0-8d4b-d5b258e51bdc",
+      "createdAt": "2026-09-16T09:23:35.765Z",
+      "updatedAt": "2026-09-16T09:23:35.765Z",
+      "messages": [],
+      "stay": {
+        "checkIn": null,
+        "checkOut": null,
+        "guests": null,
+        "maxBudget": null,
+        "selectedRoomId": null
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "c62bbd33-f61a-44c1-9446-1fe8bd6c9a95": {
+      "id": "c62bbd33-f61a-44c1-9446-1fe8bd6c9a95",
+      "createdAt": "2026-09-16T09:23:35.765Z",
+      "updatedAt": "2026-09-16T09:23:35.765Z",
+      "messages": [],
+      "stay": {
+        "checkIn": null,
+        "checkOut": null,
+        "guests": null,
+        "maxBudget": null,
+        "selectedRoomId": null
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "913dadf9-5386-4f8e-8333-fb9495978361": {
+      "id": "913dadf9-5386-4f8e-8333-fb9495978361",
+      "createdAt": "2026-09-16T09:23:35.766Z",
+      "updatedAt": "2026-09-16T09:23:35.766Z",
+      "messages": [],
+      "stay": {
+        "checkIn": null,
+        "checkOut": null,
+        "guests": null,
+        "maxBudget": null,
+        "selectedRoomId": null
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "15e01bb8-1801-4110-8af1-47a6595fc9ac": {
+      "id": "15e01bb8-1801-4110-8af1-47a6595fc9ac",
+      "createdAt": "2026-09-16T09:23:35.767Z",
+      "updatedAt": "2026-09-16T09:23:35.767Z",
+      "messages": [],
+      "stay": {
+        "checkIn": null,
+        "checkOut": null,
+        "guests": null,
+        "maxBudget": null,
+        "selectedRoomId": null
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "d85147f6-934f-414e-a9ee-535b81dd0bec": {
+      "id": "d85147f6-934f-414e-a9ee-535b81dd0bec",
+      "createdAt": "2026-09-16T09:23:35.767Z",
+      "updatedAt": "2026-09-16T09:23:35.767Z",
+      "messages": [],
+      "stay": {
+        "checkIn": null,
+        "checkOut": null,
+        "guests": null,
+        "maxBudget": null,
+        "selectedRoomId": null
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "cbec609a-2dcb-4fc8-be93-7ac6b51bf816": {
+      "id": "cbec609a-2dcb-4fc8-be93-7ac6b51bf816",
+      "createdAt": "2026-09-16T09:23:35.768Z",
+      "updatedAt": "2026-09-16T09:23:35.768Z",
+      "messages": [],
+      "stay": {
+        "checkIn": null,
+        "checkOut": null,
+        "guests": null,
+        "maxBudget": null,
+        "selectedRoomId": null
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "fd6587c7-6ce2-4743-a6f3-57c36280c499": {
+      "id": "fd6587c7-6ce2-4743-a6f3-57c36280c499",
+      "createdAt": "2026-09-16T09:23:35.770Z",
+      "updatedAt": "2026-09-16T09:23:35.771Z",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Please check availability for these dates.",
+          "at": "2026-09-16T09:23:35.770Z"
+        },
+        {
+          "role": "assistant",
+          "content": "I couldn't check room availability right now. Please try again shortly.",
+          "at": "2026-09-16T09:23:35.770Z"
+        }
+      ],
+      "stay": {
+        "checkIn": "2026-09-20",
+        "checkOut": "2026-09-22",
+        "guests": 2,
+        "maxBudget": null,
+        "selectedRoomId": null
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "99527e43-739d-474a-bf65-ffa07af63722": {
+      "id": "99527e43-739d-474a-bf65-ffa07af63722",
+      "createdAt": "2026-09-16T09:23:35.771Z",
+      "updatedAt": "2026-09-16T09:23:35.771Z",
+      "messages": [],
+      "stay": {
+        "checkIn": null,
+        "checkOut": null,
+        "guests": null,
+        "maxBudget": null,
+        "selectedRoomId": null
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "e861c381-4140-44b4-8718-5fb169772562": {
+      "id": "e861c381-4140-44b4-8718-5fb169772562",
+      "createdAt": "2026-09-16T09:23:35.772Z",
+      "updatedAt": "2026-09-16T09:23:35.772Z",
+      "messages": [],
+      "stay": {
+        "checkIn": null,
+        "checkOut": null,
+        "guests": null,
+        "maxBudget": null,
+        "selectedRoomId": null
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "34118214-fb8c-4cc7-a38d-7caa0bb52afb": {
+      "id": "34118214-fb8c-4cc7-a38d-7caa0bb52afb",
+      "createdAt": "2026-09-16T09:23:35.772Z",
+      "updatedAt": "2026-09-16T09:23:35.772Z",
+      "messages": [],
+      "stay": {
+        "checkIn": null,
+        "checkOut": null,
+        "guests": null,
+        "maxBudget": null,
+        "selectedRoomId": null
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "7b6be406-560f-48ef-a44c-a837bcdb9f6f": {
+      "id": "7b6be406-560f-48ef-a44c-a837bcdb9f6f",
+      "createdAt": "2026-09-16T09:23:35.773Z",
+      "updatedAt": "2026-09-16T09:23:35.773Z",
+      "messages": [],
+      "stay": {
+        "checkIn": null,
+        "checkOut": null,
+        "guests": null,
+        "maxBudget": null,
+        "selectedRoomId": null
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "0bdaa810-6310-4c83-9f69-8fafd3e00006": {
+      "id": "0bdaa810-6310-4c83-9f69-8fafd3e00006",
+      "createdAt": "2026-09-16T09:23:35.773Z",
+      "updatedAt": "2026-09-16T09:23:35.773Z",
+      "messages": [],
+      "stay": {
+        "checkIn": null,
+        "checkOut": null,
+        "guests": null,
+        "maxBudget": null,
+        "selectedRoomId": null
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "a002c508-dc08-4087-962b-fb22d7d6b056": {
+      "id": "a002c508-dc08-4087-962b-fb22d7d6b056",
+      "createdAt": "2026-09-16T09:23:40.245Z",
+      "updatedAt": "2026-09-16T09:23:40.245Z",
+      "messages": [],
+      "stay": {
+        "checkIn": null,
+        "checkOut": null,
+        "guests": null,
+        "maxBudget": null,
+        "selectedRoomId": null
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "6dc60f85-43b5-4281-8b94-f7e677ca7f74": {
+      "id": "6dc60f85-43b5-4281-8b94-f7e677ca7f74",
+      "createdAt": "2026-09-16T09:23:40.249Z",
+      "updatedAt": "2026-09-16T09:23:40.249Z",
+      "messages": [],
+      "stay": {
+        "checkIn": null,
+        "checkOut": null,
+        "guests": null,
+        "maxBudget": null,
+        "selectedRoomId": null
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "87ae743b-cf2b-4321-8cf5-78a72daa4e0b": {
+      "id": "87ae743b-cf2b-4321-8cf5-78a72daa4e0b",
+      "createdAt": "2026-09-16T09:23:40.250Z",
+      "updatedAt": "2026-09-16T09:23:40.250Z",
+      "messages": [],
+      "stay": {
+        "checkIn": null,
+        "checkOut": null,
+        "guests": null,
+        "maxBudget": null,
+        "selectedRoomId": null
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "564f584a-c5ad-4ebb-971c-7a5870c3a184": {
+      "id": "564f584a-c5ad-4ebb-971c-7a5870c3a184",
+      "createdAt": "2026-09-16T09:23:40.259Z",
+      "updatedAt": "2026-09-16T09:23:40.259Z",
+      "messages": [],
+      "stay": {
+        "checkIn": null,
+        "checkOut": null,
+        "guests": null,
+        "maxBudget": null,
+        "selectedRoomId": null
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "6b28b685-7ae8-4f65-b773-b6cf08d26814": {
+      "id": "6b28b685-7ae8-4f65-b773-b6cf08d26814",
+      "createdAt": "2026-09-16T09:23:40.259Z",
+      "updatedAt": "2026-09-16T09:23:40.259Z",
+      "messages": [],
+      "stay": {
+        "checkIn": null,
+        "checkOut": null,
+        "guests": null,
+        "maxBudget": null,
+        "selectedRoomId": null
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "22243001-9081-479d-b1e5-22384bb56aab": {
+      "id": "22243001-9081-479d-b1e5-22384bb56aab",
+      "createdAt": "2026-09-16T09:23:40.260Z",
+      "updatedAt": "2026-09-16T09:23:40.260Z",
+      "messages": [],
+      "stay": {
+        "checkIn": null,
+        "checkOut": null,
+        "guests": null,
+        "maxBudget": null,
+        "selectedRoomId": null
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "21632b10-4bcc-4ac7-b630-bb3431c05432": {
+      "id": "21632b10-4bcc-4ac7-b630-bb3431c05432",
+      "createdAt": "2026-09-16T09:23:40.261Z",
+      "updatedAt": "2026-09-16T09:23:40.261Z",
+      "messages": [],
+      "stay": {
+        "checkIn": null,
+        "checkOut": null,
+        "guests": null,
+        "maxBudget": null,
+        "selectedRoomId": null
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "9d9fe662-6177-4748-92bf-df642380e0ee": {
+      "id": "9d9fe662-6177-4748-92bf-df642380e0ee",
+      "createdAt": "2026-09-16T09:23:40.261Z",
+      "updatedAt": "2026-09-16T09:23:40.272Z",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Check room availability for 2026-09-20 to 2026-09-22 for 2 guests",
+          "at": "2026-09-16T09:23:40.261Z"
+        },
+        {
+          "role": "assistant",
+          "content": "Here are the available rooms.",
+          "at": "2026-09-16T09:23:40.261Z"
+        },
+        {
+          "role": "user",
+          "content": "show me rooms under 7k",
+          "at": "2026-09-16T09:23:40.271Z"
+        },
+        {
+          "role": "assistant",
+          "content": "Here is the room under ₹7,000/night. I found 4 options for 2 guests across 2 nights: Standard Queen, Deluxe King, Family Room and Executive Suite. Prices below are estimates in INR and are not a booking.",
+          "at": "2026-09-16T09:23:40.271Z"
+        }
+      ],
+      "stay": {
+        "checkIn": "2026-09-20",
+        "checkOut": "2026-09-22",
+        "guests": 2,
+        "maxBudget": null,
+        "selectedRoomId": null
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "2f61e231-3bb1-4119-bebb-733a01ba39a9": {
+      "id": "2f61e231-3bb1-4119-bebb-733a01ba39a9",
+      "createdAt": "2026-09-16T09:26:29.227Z",
+      "updatedAt": "2026-09-16T09:26:29.227Z",
+      "messages": [],
+      "stay": {
+        "checkIn": null,
+        "checkOut": null,
+        "guests": null,
+        "maxBudget": null,
+        "selectedRoomId": null
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "f20a2450-49d7-4de7-97a4-26e23d62016c": {
+      "id": "f20a2450-49d7-4de7-97a4-26e23d62016c",
+      "createdAt": "2026-09-16T09:26:29.228Z",
+      "updatedAt": "2026-09-16T09:26:29.228Z",
+      "messages": [],
+      "stay": {
+        "checkIn": null,
+        "checkOut": null,
+        "guests": null,
+        "maxBudget": null,
+        "selectedRoomId": null
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "7b0e073d-cb7e-4f99-82e1-504b87cea58c": {
+      "id": "7b0e073d-cb7e-4f99-82e1-504b87cea58c",
+      "createdAt": "2026-09-16T09:26:29.234Z",
+      "updatedAt": "2026-09-16T09:26:29.234Z",
+      "messages": [],
+      "stay": {
+        "checkIn": null,
+        "checkOut": null,
+        "guests": null,
+        "maxBudget": null,
+        "selectedRoomId": null
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "c0ca1f58-2353-4637-aaf7-dbfb0014a32d": {
+      "id": "c0ca1f58-2353-4637-aaf7-dbfb0014a32d",
+      "createdAt": "2026-09-16T09:26:29.235Z",
+      "updatedAt": "2026-09-16T09:26:29.235Z",
+      "messages": [],
+      "stay": {
+        "checkIn": null,
+        "checkOut": null,
+        "guests": null,
+        "maxBudget": null,
+        "selectedRoomId": null
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "a3f69d0a-49c4-4281-b55e-0b60bdc0c7bc": {
+      "id": "a3f69d0a-49c4-4281-b55e-0b60bdc0c7bc",
+      "createdAt": "2026-09-16T09:26:29.254Z",
+      "updatedAt": "2026-09-16T09:26:29.254Z",
+      "messages": [],
+      "stay": {
+        "checkIn": null,
+        "checkOut": null,
+        "guests": null,
+        "maxBudget": null,
+        "selectedRoomId": null
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "42c435a8-921c-4b73-839f-7218b1c9291d": {
+      "id": "42c435a8-921c-4b73-839f-7218b1c9291d",
+      "createdAt": "2026-09-16T09:26:29.256Z",
+      "updatedAt": "2026-09-16T09:26:29.256Z",
+      "messages": [],
+      "stay": {
+        "checkIn": null,
+        "checkOut": null,
+        "guests": null,
+        "maxBudget": null,
+        "selectedRoomId": null
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "6c331308-44ed-412e-be18-8c1b1c37858c": {
+      "id": "6c331308-44ed-412e-be18-8c1b1c37858c",
+      "createdAt": "2026-09-16T09:26:29.256Z",
+      "updatedAt": "2026-09-16T09:26:29.256Z",
+      "messages": [],
+      "stay": {
+        "checkIn": null,
+        "checkOut": null,
+        "guests": null,
+        "maxBudget": null,
+        "selectedRoomId": null
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "7058dcc5-0cc8-4022-a605-fa9ac7db3ebd": {
+      "id": "7058dcc5-0cc8-4022-a605-fa9ac7db3ebd",
+      "createdAt": "2026-09-16T09:26:29.257Z",
+      "updatedAt": "2026-09-16T09:26:29.257Z",
+      "messages": [],
+      "stay": {
+        "checkIn": null,
+        "checkOut": null,
+        "guests": null,
+        "maxBudget": null,
+        "selectedRoomId": null
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "9e9f9d0f-e33e-4034-87ac-ed3be5cac9e7": {
+      "id": "9e9f9d0f-e33e-4034-87ac-ed3be5cac9e7",
+      "createdAt": "2026-09-16T09:26:29.258Z",
+      "updatedAt": "2026-09-16T09:26:29.258Z",
+      "messages": [],
+      "stay": {
+        "checkIn": null,
+        "checkOut": null,
+        "guests": null,
+        "maxBudget": null,
+        "selectedRoomId": null
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "d949e55b-11f4-4158-a87f-867d600092d3": {
+      "id": "d949e55b-11f4-4158-a87f-867d600092d3",
+      "createdAt": "2026-09-16T09:26:29.259Z",
+      "updatedAt": "2026-09-16T09:26:29.259Z",
+      "messages": [],
+      "stay": {
+        "checkIn": null,
+        "checkOut": null,
+        "guests": null,
+        "maxBudget": null,
+        "selectedRoomId": null
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "c60ad4aa-9db3-4e13-80cf-12a7b97e5119": {
+      "id": "c60ad4aa-9db3-4e13-80cf-12a7b97e5119",
+      "createdAt": "2026-09-16T09:26:29.260Z",
+      "updatedAt": "2026-09-16T09:26:29.260Z",
+      "messages": [],
+      "stay": {
+        "checkIn": null,
+        "checkOut": null,
+        "guests": null,
+        "maxBudget": null,
+        "selectedRoomId": null
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "08ce2663-13bf-4611-b94e-696f244a1c4c": {
+      "id": "08ce2663-13bf-4611-b94e-696f244a1c4c",
+      "createdAt": "2026-09-16T09:26:29.260Z",
+      "updatedAt": "2026-09-16T09:26:29.261Z",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Please check availability for these dates.",
+          "at": "2026-09-16T09:26:29.261Z"
+        },
+        {
+          "role": "assistant",
+          "content": "I couldn't check room availability right now. Please try again shortly.",
+          "at": "2026-09-16T09:26:29.261Z"
+        }
+      ],
+      "stay": {
+        "checkIn": "2026-09-20",
+        "checkOut": "2026-09-22",
+        "guests": 2,
+        "maxBudget": null,
+        "selectedRoomId": null
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "6db40515-9168-4e7e-b8ce-9b74c8b00126": {
+      "id": "6db40515-9168-4e7e-b8ce-9b74c8b00126",
+      "createdAt": "2026-09-16T09:26:29.262Z",
+      "updatedAt": "2026-09-16T09:26:29.262Z",
+      "messages": [],
+      "stay": {
+        "checkIn": null,
+        "checkOut": null,
+        "guests": null,
+        "maxBudget": null,
+        "selectedRoomId": null
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "2c1ef52f-4bc7-401a-a748-8ea85623b1d7": {
+      "id": "2c1ef52f-4bc7-401a-a748-8ea85623b1d7",
+      "createdAt": "2026-09-16T09:26:29.262Z",
+      "updatedAt": "2026-09-16T09:26:29.262Z",
+      "messages": [],
+      "stay": {
+        "checkIn": null,
+        "checkOut": null,
+        "guests": null,
+        "maxBudget": null,
+        "selectedRoomId": null
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "ad5f6f52-84b7-4893-a3d7-2d2d8794a6a9": {
+      "id": "ad5f6f52-84b7-4893-a3d7-2d2d8794a6a9",
+      "createdAt": "2026-09-16T09:26:29.262Z",
+      "updatedAt": "2026-09-16T09:26:29.262Z",
+      "messages": [],
+      "stay": {
+        "checkIn": null,
+        "checkOut": null,
+        "guests": null,
+        "maxBudget": null,
+        "selectedRoomId": null
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "9baf1607-f740-4df3-a010-25c06a76e091": {
+      "id": "9baf1607-f740-4df3-a010-25c06a76e091",
+      "createdAt": "2026-09-16T09:26:29.263Z",
+      "updatedAt": "2026-09-16T09:26:29.263Z",
+      "messages": [],
+      "stay": {
+        "checkIn": null,
+        "checkOut": null,
+        "guests": null,
+        "maxBudget": null,
+        "selectedRoomId": null
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "251921ce-8123-4a21-adb0-40ab241516de": {
+      "id": "251921ce-8123-4a21-adb0-40ab241516de",
+      "createdAt": "2026-09-16T09:26:29.263Z",
+      "updatedAt": "2026-09-16T09:26:29.263Z",
+      "messages": [],
+      "stay": {
+        "checkIn": null,
+        "checkOut": null,
+        "guests": null,
+        "maxBudget": null,
+        "selectedRoomId": null
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "d7c92d0b-6090-416d-a053-d6e15cb534b4": {
+      "id": "d7c92d0b-6090-416d-a053-d6e15cb534b4",
+      "createdAt": "2026-09-16T09:26:32.921Z",
+      "updatedAt": "2026-09-16T09:26:32.921Z",
+      "messages": [],
+      "stay": {
+        "checkIn": null,
+        "checkOut": null,
+        "guests": null,
+        "maxBudget": null,
+        "selectedRoomId": null
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "b6d0b112-aa87-4df8-b60e-f5882216825b": {
+      "id": "b6d0b112-aa87-4df8-b60e-f5882216825b",
+      "createdAt": "2026-09-16T09:32:47.030Z",
+      "updatedAt": "2026-09-16T09:32:47.033Z",
+      "messages": [],
+      "stay": {
+        "checkIn": "2026-09-17",
+        "checkOut": "2026-09-18",
+        "guests": 3,
+        "maxBudget": null,
+        "selectedRoomId": "family-room"
+      },
+      "guest": {
+        "name": "tomorrow for",
+        "email": "priya@example.com",
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "d510eb9f-7ee1-4c66-92f9-e80fefa1a037": {
+      "id": "d510eb9f-7ee1-4c66-92f9-e80fefa1a037",
+      "createdAt": "2026-09-16T09:32:47.038Z",
+      "updatedAt": "2026-09-16T09:32:47.040Z",
+      "messages": [],
+      "stay": {
+        "checkIn": "2026-09-17",
+        "checkOut": "2026-09-18",
+        "guests": 2,
+        "maxBudget": 5000,
+        "selectedRoomId": "deluxe-king"
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "3322b456-1fc9-445c-b2ea-f914ae6e81e7": {
+      "id": "3322b456-1fc9-445c-b2ea-f914ae6e81e7",
+      "createdAt": "2026-09-16T09:32:47.041Z",
+      "updatedAt": "2026-09-16T09:32:47.042Z",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Do you have a family room?",
+          "at": "2026-09-16T09:32:47.042Z"
+        },
+        {
+          "role": "assistant",
+          "content": "Yes, we have the Family Room available.",
+          "at": "2026-09-16T09:32:47.042Z"
+        }
+      ],
+      "stay": {
+        "checkIn": "2026-09-20",
+        "checkOut": "2026-09-22",
+        "guests": 2,
+        "maxBudget": 7000,
+        "selectedRoomId": "family-room"
+      },
+      "guest": {
+        "name": "Rahul Mehta",
+        "email": "rahul@example.com",
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "d8143e24-7527-40e3-b9dd-398026b28025": {
+      "id": "d8143e24-7527-40e3-b9dd-398026b28025",
+      "createdAt": "2026-09-16T09:32:47.066Z",
+      "updatedAt": "2026-09-16T09:32:47.067Z",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Tell me about the Deluxe King",
+          "at": "2026-09-16T09:32:47.067Z"
+        },
+        {
+          "role": "assistant",
+          "content": "The Deluxe King has a sea view.",
+          "at": "2026-09-16T09:32:47.067Z"
+        },
+        {
+          "role": "user",
+          "content": "Does it include breakfast?",
+          "at": "2026-09-16T09:32:47.067Z"
+        },
+        {
+          "role": "assistant",
+          "content": "Breakfast is included.",
+          "at": "2026-09-16T09:32:47.067Z"
+        }
+      ],
+      "stay": {
+        "checkIn": null,
+        "checkOut": null,
+        "guests": null,
+        "maxBudget": null,
+        "selectedRoomId": null
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "89a45216-ae2c-4f80-ad72-3985683066ff": {
+      "id": "89a45216-ae2c-4f80-ad72-3985683066ff",
+      "createdAt": "2026-09-16T09:32:47.125Z",
+      "updatedAt": "2026-09-16T09:32:47.127Z",
+      "messages": [],
+      "stay": {
+        "checkIn": null,
+        "checkOut": null,
+        "guests": null,
+        "maxBudget": null,
+        "selectedRoomId": null
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "de7a9458-f302-499d-a1c3-2f2317b3f469": {
+      "id": "de7a9458-f302-499d-a1c3-2f2317b3f469",
+      "createdAt": "2026-09-16T09:32:47.131Z",
+      "updatedAt": "2026-09-16T09:32:47.131Z",
+      "messages": [],
+      "stay": {
+        "checkIn": null,
+        "checkOut": null,
+        "guests": null,
+        "maxBudget": null,
+        "selectedRoomId": null
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "d675a8ca-b823-4792-8b6f-1949505888d2": {
+      "id": "d675a8ca-b823-4792-8b6f-1949505888d2",
+      "createdAt": "2026-09-16T09:32:47.132Z",
+      "updatedAt": "2026-09-16T09:32:47.134Z",
+      "messages": [],
+      "stay": {
+        "checkIn": null,
+        "checkOut": null,
+        "guests": 3,
+        "maxBudget": null,
+        "selectedRoomId": null
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "c76dc92f-91e7-4f98-9625-2f303a12d6ee": {
+      "id": "c76dc92f-91e7-4f98-9625-2f303a12d6ee",
+      "createdAt": "2026-09-16T09:32:47.145Z",
+      "updatedAt": "2026-09-16T09:32:47.146Z",
+      "messages": [],
+      "stay": {
+        "checkIn": null,
+        "checkOut": null,
+        "guests": null,
+        "maxBudget": null,
+        "selectedRoomId": null
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "7eb03d57-6ed7-4689-ad61-3a294e52050f": {
+      "id": "7eb03d57-6ed7-4689-ad61-3a294e52050f",
+      "createdAt": "2026-09-16T09:32:47.146Z",
+      "updatedAt": "2026-09-16T09:32:47.147Z",
+      "messages": [],
+      "stay": {
+        "checkIn": null,
+        "checkOut": null,
+        "guests": null,
+        "maxBudget": null,
+        "selectedRoomId": null
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "7706157a-685b-4767-8854-907ef3aa2639": {
+      "id": "7706157a-685b-4767-8854-907ef3aa2639",
+      "createdAt": "2026-09-16T09:32:47.147Z",
+      "updatedAt": "2026-09-16T09:32:47.147Z",
+      "messages": [],
+      "stay": {
+        "checkIn": null,
+        "checkOut": null,
+        "guests": null,
+        "maxBudget": null,
+        "selectedRoomId": null
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "35293ec7-6c8c-4caf-80dd-8645068a4e30": {
+      "id": "35293ec7-6c8c-4caf-80dd-8645068a4e30",
+      "createdAt": "2026-09-16T09:32:47.149Z",
+      "updatedAt": "2026-09-16T09:32:47.149Z",
+      "messages": [],
+      "stay": {
+        "checkIn": null,
+        "checkOut": null,
+        "guests": null,
+        "maxBudget": null,
+        "selectedRoomId": null
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "72a103b7-3539-4b13-9148-eeb43a5bfbae": {
+      "id": "72a103b7-3539-4b13-9148-eeb43a5bfbae",
+      "createdAt": "2026-09-16T09:32:47.150Z",
+      "updatedAt": "2026-09-16T09:32:47.150Z",
+      "messages": [],
+      "stay": {
+        "checkIn": null,
+        "checkOut": null,
+        "guests": null,
+        "maxBudget": null,
+        "selectedRoomId": null
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "7c65f846-e0c5-4f0c-9cab-275962d8aded": {
+      "id": "7c65f846-e0c5-4f0c-9cab-275962d8aded",
+      "createdAt": "2026-09-16T09:32:47.151Z",
+      "updatedAt": "2026-09-16T09:32:47.152Z",
+      "messages": [],
+      "stay": {
+        "checkIn": null,
+        "checkOut": null,
+        "guests": 4,
+        "maxBudget": null,
+        "selectedRoomId": "family-room"
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "eee70632-aef6-4453-b15f-4fbef24778f1": {
+      "id": "eee70632-aef6-4453-b15f-4fbef24778f1",
+      "createdAt": "2026-09-16T09:32:47.152Z",
+      "updatedAt": "2026-09-16T09:32:47.153Z",
+      "messages": [],
+      "stay": {
+        "checkIn": null,
+        "checkOut": null,
+        "guests": null,
+        "maxBudget": null,
+        "selectedRoomId": null
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "75a627e3-1c59-49be-b411-8176e2c748a1": {
+      "id": "75a627e3-1c59-49be-b411-8176e2c748a1",
+      "createdAt": "2026-09-16T09:32:47.154Z",
+      "updatedAt": "2026-09-16T09:32:47.156Z",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Please check availability for these dates.",
+          "at": "2026-09-16T09:32:47.155Z"
+        },
+        {
+          "role": "assistant",
+          "content": "I couldn't check room availability right now. Please try again shortly.",
+          "at": "2026-09-16T09:32:47.155Z"
+        }
+      ],
+      "stay": {
+        "checkIn": "2026-09-20",
+        "checkOut": "2026-09-22",
+        "guests": 2,
+        "maxBudget": null,
+        "selectedRoomId": null
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "541e17b0-d017-4a36-bdc6-1541d0080425": {
+      "id": "541e17b0-d017-4a36-bdc6-1541d0080425",
+      "createdAt": "2026-09-16T09:32:47.156Z",
+      "updatedAt": "2026-09-16T09:32:47.157Z",
+      "messages": [],
+      "stay": {
+        "checkIn": null,
+        "checkOut": null,
+        "guests": null,
+        "maxBudget": null,
+        "selectedRoomId": null
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "8daea459-7673-4751-b50a-9e160d6bd91f": {
+      "id": "8daea459-7673-4751-b50a-9e160d6bd91f",
+      "createdAt": "2026-09-16T09:32:47.157Z",
+      "updatedAt": "2026-09-16T09:32:47.157Z",
+      "messages": [],
+      "stay": {
+        "checkIn": "2026-09-17",
+        "checkOut": "2026-09-18",
+        "guests": 2,
+        "maxBudget": null,
+        "selectedRoomId": null
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "75fa72a4-15b7-424e-9bed-f4ecc3a18313": {
+      "id": "75fa72a4-15b7-424e-9bed-f4ecc3a18313",
+      "createdAt": "2026-09-16T09:32:47.158Z",
+      "updatedAt": "2026-09-16T09:32:47.158Z",
+      "messages": [],
+      "stay": {
+        "checkIn": "2026-09-17",
+        "checkOut": "2026-09-18",
+        "guests": 2,
+        "maxBudget": 5000,
+        "selectedRoomId": null
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "93783d4b-3b6d-4c97-b278-4c661819289e": {
+      "id": "93783d4b-3b6d-4c97-b278-4c661819289e",
+      "createdAt": "2026-09-16T09:32:47.159Z",
+      "updatedAt": "2026-09-16T09:32:47.159Z",
+      "messages": [],
+      "stay": {
+        "checkIn": "2026-09-20",
+        "checkOut": "2026-09-22",
+        "guests": 2,
+        "maxBudget": null,
+        "selectedRoomId": null
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": "2026-09-20"
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "ab6253df-71dd-4bf7-8726-6db463b6ad60": {
+      "id": "ab6253df-71dd-4bf7-8726-6db463b6ad60",
+      "createdAt": "2026-09-16T09:32:47.160Z",
+      "updatedAt": "2026-09-16T09:32:47.160Z",
+      "messages": [],
+      "stay": {
+        "checkIn": "2026-09-20",
+        "checkOut": "2026-09-22",
+        "guests": 2,
+        "maxBudget": 7000,
+        "selectedRoomId": "standard-queen"
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "1cd64f4c-e04f-4a3d-a76b-183d5c838149": {
+      "id": "1cd64f4c-e04f-4a3d-a76b-183d5c838149",
+      "createdAt": "2026-09-16T09:55:25.795Z",
+      "updatedAt": "2026-09-16T09:55:25.798Z",
+      "messages": [],
+      "stay": {
+        "checkIn": "2026-09-17",
+        "checkOut": "2026-09-18",
+        "guests": 3,
+        "maxBudget": null,
+        "selectedRoomId": "family-room"
+      },
+      "guest": {
+        "name": "Priya Sharma",
+        "email": "priya@example.com",
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "1f8fce2a-775c-49ec-b2d4-7ceed833d6be": {
+      "id": "1f8fce2a-775c-49ec-b2d4-7ceed833d6be",
+      "createdAt": "2026-09-16T09:55:25.799Z",
+      "updatedAt": "2026-09-16T09:55:25.800Z",
+      "messages": [],
+      "stay": {
+        "checkIn": "2026-09-20",
+        "checkOut": "2026-09-22",
+        "guests": 2,
+        "maxBudget": 5000,
+        "selectedRoomId": "deluxe-king"
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "11fa3b20-56e1-4d90-a31a-d2316d95fa8c": {
+      "id": "11fa3b20-56e1-4d90-a31a-d2316d95fa8c",
+      "createdAt": "2026-09-16T09:55:25.801Z",
+      "updatedAt": "2026-09-16T09:55:25.801Z",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Do you have a family room?",
+          "at": "2026-09-16T09:55:25.801Z"
+        },
+        {
+          "role": "assistant",
+          "content": "Yes, we have the Family Room available.",
+          "at": "2026-09-16T09:55:25.801Z"
+        }
+      ],
+      "stay": {
+        "checkIn": "2026-09-20",
+        "checkOut": "2026-09-22",
+        "guests": 2,
+        "maxBudget": 7000,
+        "selectedRoomId": "family-room"
+      },
+      "guest": {
+        "name": "Rahul Mehta",
+        "email": "rahul@example.com",
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "7ebb6b35-3197-4c35-b29d-b7015824bfa6": {
+      "id": "7ebb6b35-3197-4c35-b29d-b7015824bfa6",
+      "createdAt": "2026-09-16T09:55:25.830Z",
+      "updatedAt": "2026-09-16T09:55:25.831Z",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Tell me about the Deluxe King",
+          "at": "2026-09-16T09:55:25.831Z"
+        },
+        {
+          "role": "assistant",
+          "content": "The Deluxe King has a sea view.",
+          "at": "2026-09-16T09:55:25.831Z"
+        },
+        {
+          "role": "user",
+          "content": "Does it include breakfast?",
+          "at": "2026-09-16T09:55:25.831Z"
+        },
+        {
+          "role": "assistant",
+          "content": "Breakfast is included.",
+          "at": "2026-09-16T09:55:25.831Z"
+        }
+      ],
+      "stay": {
+        "checkIn": null,
+        "checkOut": null,
+        "guests": null,
+        "maxBudget": null,
+        "selectedRoomId": null
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "dda94c81-1b43-4980-a97a-0084eeadb103": {
+      "id": "dda94c81-1b43-4980-a97a-0084eeadb103",
+      "createdAt": "2026-09-16T09:55:25.867Z",
+      "updatedAt": "2026-09-16T09:55:25.870Z",
+      "messages": [],
+      "stay": {
+        "checkIn": null,
+        "checkOut": null,
+        "guests": null,
+        "maxBudget": null,
+        "selectedRoomId": null
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "b7760d44-f431-4cb8-a004-48425b98e133": {
+      "id": "b7760d44-f431-4cb8-a004-48425b98e133",
+      "createdAt": "2026-09-16T09:55:25.875Z",
+      "updatedAt": "2026-09-16T09:55:25.876Z",
+      "messages": [],
+      "stay": {
+        "checkIn": null,
+        "checkOut": null,
+        "guests": null,
+        "maxBudget": null,
+        "selectedRoomId": null
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "f4d9aea0-1017-4303-ab2f-babe74a35c03": {
+      "id": "f4d9aea0-1017-4303-ab2f-babe74a35c03",
+      "createdAt": "2026-09-16T09:55:25.878Z",
+      "updatedAt": "2026-09-16T09:55:25.879Z",
+      "messages": [],
+      "stay": {
+        "checkIn": null,
+        "checkOut": null,
+        "guests": 3,
+        "maxBudget": null,
+        "selectedRoomId": null
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "5105801e-a792-4c09-b2d5-42a0fc1c43a7": {
+      "id": "5105801e-a792-4c09-b2d5-42a0fc1c43a7",
+      "createdAt": "2026-09-16T09:55:25.885Z",
+      "updatedAt": "2026-09-16T09:55:25.893Z",
+      "messages": [
+        {
+          "role": "user",
+          "content": "What time is check-in?",
+          "at": "2026-09-16T09:55:25.892Z"
+        },
+        {
+          "role": "assistant",
+          "content": "Check-in at Asteria Grand Hotel begins at 3:00 PM. Check-out is at 11:00 AM. The front desk is open 24 hours if you need an early arrival.",
+          "at": "2026-09-16T09:55:25.892Z"
+        }
+      ],
+      "stay": {
+        "checkIn": null,
+        "checkOut": null,
+        "guests": null,
+        "maxBudget": null,
+        "selectedRoomId": null
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "65227c17-eada-4979-b134-cba0a954763a": {
+      "id": "65227c17-eada-4979-b134-cba0a954763a",
+      "createdAt": "2026-09-16T09:55:25.894Z",
+      "updatedAt": "2026-09-16T09:55:25.894Z",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Check room availability for 2026-09-20 to 2026-09-22 for 2 guests",
+          "at": "2026-09-16T09:55:25.894Z"
+        },
+        {
+          "role": "assistant",
+          "content": "Here are the available rooms.",
+          "at": "2026-09-16T09:55:25.894Z"
+        }
+      ],
+      "stay": {
+        "checkIn": "2026-09-20",
+        "checkOut": "2026-09-22",
+        "guests": 2,
+        "maxBudget": null,
+        "selectedRoomId": null
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "13378160-2740-44c9-a3c8-fcb18aab4b3f": {
+      "id": "13378160-2740-44c9-a3c8-fcb18aab4b3f",
+      "createdAt": "2026-09-16T09:55:25.895Z",
+      "updatedAt": "2026-09-16T09:55:25.896Z",
+      "messages": [],
+      "stay": {
+        "checkIn": null,
+        "checkOut": null,
+        "guests": null,
+        "maxBudget": null,
+        "selectedRoomId": null
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "aef68c75-f49d-41d0-b3a7-207c6a6d1443": {
+      "id": "aef68c75-f49d-41d0-b3a7-207c6a6d1443",
+      "createdAt": "2026-09-16T09:55:25.897Z",
+      "updatedAt": "2026-09-16T09:55:25.898Z",
+      "messages": [],
+      "stay": {
+        "checkIn": null,
+        "checkOut": null,
+        "guests": null,
+        "maxBudget": null,
+        "selectedRoomId": null
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "995315ce-611c-41ce-b100-d43315a8aee2": {
+      "id": "995315ce-611c-41ce-b100-d43315a8aee2",
+      "createdAt": "2026-09-16T09:55:25.899Z",
+      "updatedAt": "2026-09-16T09:55:25.899Z",
+      "messages": [],
+      "stay": {
+        "checkIn": null,
+        "checkOut": null,
+        "guests": null,
+        "maxBudget": null,
+        "selectedRoomId": null
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "471171fa-d1fe-4655-973a-f157ae1a3b64": {
+      "id": "471171fa-d1fe-4655-973a-f157ae1a3b64",
+      "createdAt": "2026-09-16T09:55:25.900Z",
+      "updatedAt": "2026-09-16T09:55:25.900Z",
+      "messages": [],
+      "stay": {
+        "checkIn": null,
+        "checkOut": null,
+        "guests": null,
+        "maxBudget": null,
+        "selectedRoomId": "family-room"
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "36097243-1b0b-48e6-a89d-f5d0b5993fcd": {
+      "id": "36097243-1b0b-48e6-a89d-f5d0b5993fcd",
+      "createdAt": "2026-09-16T09:55:25.901Z",
+      "updatedAt": "2026-09-16T09:55:25.901Z",
+      "messages": [],
+      "stay": {
+        "checkIn": null,
+        "checkOut": null,
+        "guests": null,
+        "maxBudget": null,
+        "selectedRoomId": null
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "4cf57a48-62b0-4048-a9c9-f22f94457de8": {
+      "id": "4cf57a48-62b0-4048-a9c9-f22f94457de8",
+      "createdAt": "2026-09-16T09:55:25.902Z",
+      "updatedAt": "2026-09-16T09:55:25.903Z",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Please check availability for these dates.",
+          "at": "2026-09-16T09:55:25.902Z"
+        },
+        {
+          "role": "assistant",
+          "content": "I couldn't check room availability right now. Please try again shortly.",
+          "at": "2026-09-16T09:55:25.903Z"
+        }
+      ],
+      "stay": {
+        "checkIn": "2026-09-20",
+        "checkOut": "2026-09-22",
+        "guests": 2,
+        "maxBudget": null,
+        "selectedRoomId": null
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "53ad596b-ff8c-4a8f-bc14-7e0ff3d74558": {
+      "id": "53ad596b-ff8c-4a8f-bc14-7e0ff3d74558",
+      "createdAt": "2026-09-16T09:55:25.903Z",
+      "updatedAt": "2026-09-16T09:55:25.904Z",
+      "messages": [],
+      "stay": {
+        "checkIn": null,
+        "checkOut": null,
+        "guests": null,
+        "maxBudget": null,
+        "selectedRoomId": null
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "c26047b9-50d6-4aac-910b-13ce9a24313a": {
+      "id": "c26047b9-50d6-4aac-910b-13ce9a24313a",
+      "createdAt": "2026-09-16T09:55:25.904Z",
+      "updatedAt": "2026-09-16T09:55:25.905Z",
+      "messages": [],
+      "stay": {
+        "checkIn": "2026-09-17",
+        "checkOut": "2026-09-18",
+        "guests": null,
+        "maxBudget": null,
+        "selectedRoomId": null
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "690f8ce2-9053-4d77-8eee-ca761ebdf4ed": {
+      "id": "690f8ce2-9053-4d77-8eee-ca761ebdf4ed",
+      "createdAt": "2026-09-16T09:55:25.905Z",
+      "updatedAt": "2026-09-16T09:55:25.906Z",
+      "messages": [],
+      "stay": {
+        "checkIn": null,
+        "checkOut": null,
+        "guests": null,
+        "maxBudget": 5000,
+        "selectedRoomId": null
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "231935d6-81b4-4193-a0fd-5a708c1ccd3c": {
+      "id": "231935d6-81b4-4193-a0fd-5a708c1ccd3c",
+      "createdAt": "2026-09-16T09:55:25.907Z",
+      "updatedAt": "2026-09-16T09:55:25.907Z",
+      "messages": [],
+      "stay": {
+        "checkIn": "2026-09-20",
+        "checkOut": "2026-09-22",
+        "guests": 2,
+        "maxBudget": null,
+        "selectedRoomId": null
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": "2026-09-20"
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "7bf9ce0a-81f1-436d-a6fd-900c52097046": {
+      "id": "7bf9ce0a-81f1-436d-a6fd-900c52097046",
+      "createdAt": "2026-09-16T09:55:25.907Z",
+      "updatedAt": "2026-09-16T09:55:25.908Z",
+      "messages": [],
+      "stay": {
+        "checkIn": null,
+        "checkOut": null,
+        "guests": null,
+        "maxBudget": 7000,
+        "selectedRoomId": null
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "d0241e24-441f-4f04-9ceb-675bd9263a21": {
+      "id": "d0241e24-441f-4f04-9ceb-675bd9263a21",
+      "createdAt": "2026-09-16T09:55:31.453Z",
+      "updatedAt": "2026-09-16T09:55:31.455Z",
+      "messages": [],
+      "stay": {
+        "checkIn": null,
+        "checkOut": null,
+        "guests": null,
+        "maxBudget": null,
+        "selectedRoomId": null
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "c13832a8-f331-411c-9dac-c53eb376f57d": {
+      "id": "c13832a8-f331-411c-9dac-c53eb376f57d",
+      "createdAt": "2026-09-16T09:55:31.458Z",
+      "updatedAt": "2026-09-16T09:55:31.459Z",
+      "messages": [],
+      "stay": {
+        "checkIn": null,
+        "checkOut": null,
+        "guests": null,
+        "maxBudget": null,
+        "selectedRoomId": null
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "12737150-4f68-4473-a81c-d709a8c1b26a": {
+      "id": "12737150-4f68-4473-a81c-d709a8c1b26a",
+      "createdAt": "2026-09-16T09:55:31.460Z",
+      "updatedAt": "2026-09-16T09:55:31.460Z",
+      "messages": [],
+      "stay": {
+        "checkIn": null,
+        "checkOut": null,
+        "guests": 3,
+        "maxBudget": null,
+        "selectedRoomId": null
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "0b4022fa-aaea-4d17-9545-b7e9a0c37a21": {
+      "id": "0b4022fa-aaea-4d17-9545-b7e9a0c37a21",
+      "createdAt": "2026-09-16T09:55:31.469Z",
+      "updatedAt": "2026-09-16T09:55:31.469Z",
+      "messages": [],
+      "stay": {
+        "checkIn": null,
+        "checkOut": null,
+        "guests": null,
+        "maxBudget": null,
+        "selectedRoomId": null
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "240ddbae-04f5-4625-9454-de73c2f219f5": {
+      "id": "240ddbae-04f5-4625-9454-de73c2f219f5",
+      "createdAt": "2026-09-16T09:55:31.470Z",
+      "updatedAt": "2026-09-16T09:55:31.470Z",
+      "messages": [],
+      "stay": {
+        "checkIn": null,
+        "checkOut": null,
+        "guests": null,
+        "maxBudget": null,
+        "selectedRoomId": null
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "7e2b7cb1-54c1-49dc-83b1-d60571686db7": {
+      "id": "7e2b7cb1-54c1-49dc-83b1-d60571686db7",
+      "createdAt": "2026-09-16T09:55:31.471Z",
+      "updatedAt": "2026-09-16T09:55:31.472Z",
+      "messages": [],
+      "stay": {
+        "checkIn": null,
+        "checkOut": null,
+        "guests": null,
+        "maxBudget": null,
+        "selectedRoomId": null
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "ee3dae74-f481-44e6-8095-fcf7f188c92f": {
+      "id": "ee3dae74-f481-44e6-8095-fcf7f188c92f",
+      "createdAt": "2026-09-16T09:55:31.473Z",
+      "updatedAt": "2026-09-16T09:55:31.473Z",
+      "messages": [],
+      "stay": {
+        "checkIn": null,
+        "checkOut": null,
+        "guests": null,
+        "maxBudget": null,
+        "selectedRoomId": null
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "810b6e5f-37fa-4d90-908e-ae34fe15c0aa": {
+      "id": "810b6e5f-37fa-4d90-908e-ae34fe15c0aa",
+      "createdAt": "2026-09-16T09:55:31.475Z",
+      "updatedAt": "2026-09-16T09:55:31.475Z",
+      "messages": [],
+      "stay": {
+        "checkIn": null,
+        "checkOut": null,
+        "guests": null,
+        "maxBudget": null,
+        "selectedRoomId": null
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "e0ea031d-079a-4771-90a9-bb2b7e6af3b5": {
+      "id": "e0ea031d-079a-4771-90a9-bb2b7e6af3b5",
+      "createdAt": "2026-09-16T09:55:31.476Z",
+      "updatedAt": "2026-09-16T09:55:31.476Z",
+      "messages": [],
+      "stay": {
+        "checkIn": null,
+        "checkOut": null,
+        "guests": null,
+        "maxBudget": null,
+        "selectedRoomId": "family-room"
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "5c457931-5d3f-47f5-b374-e6a8edb84a20": {
+      "id": "5c457931-5d3f-47f5-b374-e6a8edb84a20",
+      "createdAt": "2026-09-16T09:55:31.477Z",
+      "updatedAt": "2026-09-16T09:55:31.477Z",
+      "messages": [],
+      "stay": {
+        "checkIn": null,
+        "checkOut": null,
+        "guests": null,
+        "maxBudget": null,
+        "selectedRoomId": null
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "74a671bf-3843-482e-9c9f-0067edb9c5f6": {
+      "id": "74a671bf-3843-482e-9c9f-0067edb9c5f6",
+      "createdAt": "2026-09-16T09:55:31.478Z",
+      "updatedAt": "2026-09-16T09:55:31.479Z",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Please check availability for these dates.",
+          "at": "2026-09-16T09:55:31.479Z"
+        },
+        {
+          "role": "assistant",
+          "content": "I couldn't check room availability right now. Please try again shortly.",
+          "at": "2026-09-16T09:55:31.479Z"
+        }
+      ],
+      "stay": {
+        "checkIn": "2026-09-20",
+        "checkOut": "2026-09-22",
+        "guests": 2,
+        "maxBudget": null,
+        "selectedRoomId": null
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "7e8a23e4-1776-41c8-9608-d5c2b0123fd1": {
+      "id": "7e8a23e4-1776-41c8-9608-d5c2b0123fd1",
+      "createdAt": "2026-09-16T09:55:31.480Z",
+      "updatedAt": "2026-09-16T09:55:31.480Z",
+      "messages": [],
+      "stay": {
+        "checkIn": null,
+        "checkOut": null,
+        "guests": null,
+        "maxBudget": null,
+        "selectedRoomId": null
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "ff895c32-b53b-4405-8c04-2b3b0af5bbac": {
+      "id": "ff895c32-b53b-4405-8c04-2b3b0af5bbac",
+      "createdAt": "2026-09-16T09:55:31.481Z",
+      "updatedAt": "2026-09-16T09:55:31.481Z",
+      "messages": [],
+      "stay": {
+        "checkIn": "2026-09-17",
+        "checkOut": "2026-09-18",
+        "guests": null,
+        "maxBudget": null,
+        "selectedRoomId": null
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "d970715e-ed46-40b4-9c9b-ece42c7f6f89": {
+      "id": "d970715e-ed46-40b4-9c9b-ece42c7f6f89",
+      "createdAt": "2026-09-16T09:55:31.482Z",
+      "updatedAt": "2026-09-16T09:55:31.483Z",
+      "messages": [],
+      "stay": {
+        "checkIn": null,
+        "checkOut": null,
+        "guests": null,
+        "maxBudget": 5000,
+        "selectedRoomId": null
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "12b020c1-49ab-4c30-b0da-84c043d0a4e8": {
+      "id": "12b020c1-49ab-4c30-b0da-84c043d0a4e8",
+      "createdAt": "2026-09-16T09:55:31.483Z",
+      "updatedAt": "2026-09-16T09:55:31.483Z",
+      "messages": [],
+      "stay": {
+        "checkIn": "2026-09-20",
+        "checkOut": "2026-09-22",
+        "guests": 2,
+        "maxBudget": null,
+        "selectedRoomId": null
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": "2026-09-20"
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "ffcbc84a-d739-4444-b0aa-60bf6ac2cfa6": {
+      "id": "ffcbc84a-d739-4444-b0aa-60bf6ac2cfa6",
+      "createdAt": "2026-09-16T09:55:31.484Z",
+      "updatedAt": "2026-09-16T09:55:31.484Z",
+      "messages": [],
+      "stay": {
+        "checkIn": null,
+        "checkOut": null,
+        "guests": null,
+        "maxBudget": 7000,
+        "selectedRoomId": null
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "682520ca-1ecb-4eb0-b3db-e72002851ca3": {
+      "id": "682520ca-1ecb-4eb0-b3db-e72002851ca3",
+      "createdAt": "2026-09-16T09:55:46.521Z",
+      "updatedAt": "2026-09-16T09:55:46.525Z",
+      "messages": [],
+      "stay": {
+        "checkIn": "2026-09-17",
+        "checkOut": "2026-09-18",
+        "guests": 3,
+        "maxBudget": null,
+        "selectedRoomId": "family-room"
+      },
+      "guest": {
+        "name": "Priya Sharma",
+        "email": "priya@example.com",
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "4a5ca0ea-25ef-4a2b-a0ae-7c4bb5b41bb9": {
+      "id": "4a5ca0ea-25ef-4a2b-a0ae-7c4bb5b41bb9",
+      "createdAt": "2026-09-16T09:55:46.526Z",
+      "updatedAt": "2026-09-16T09:55:46.529Z",
+      "messages": [],
+      "stay": {
+        "checkIn": "2026-09-20",
+        "checkOut": "2026-09-22",
+        "guests": 2,
+        "maxBudget": 5000,
+        "selectedRoomId": "deluxe-king"
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "d3e30a52-88b9-449b-ad84-622e8fb70c6f": {
+      "id": "d3e30a52-88b9-449b-ad84-622e8fb70c6f",
+      "createdAt": "2026-09-16T09:55:46.529Z",
+      "updatedAt": "2026-09-16T09:55:46.530Z",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Do you have a family room?",
+          "at": "2026-09-16T09:55:46.530Z"
+        },
+        {
+          "role": "assistant",
+          "content": "Yes, we have the Family Room available.",
+          "at": "2026-09-16T09:55:46.530Z"
+        }
+      ],
+      "stay": {
+        "checkIn": "2026-09-20",
+        "checkOut": "2026-09-22",
+        "guests": 2,
+        "maxBudget": 7000,
+        "selectedRoomId": "family-room"
+      },
+      "guest": {
+        "name": "Rahul Mehta",
+        "email": "rahul@example.com",
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "1143da9f-c5e6-4223-96a5-66e48eb02b11": {
+      "id": "1143da9f-c5e6-4223-96a5-66e48eb02b11",
+      "createdAt": "2026-09-16T09:55:46.542Z",
+      "updatedAt": "2026-09-16T09:55:46.543Z",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Tell me about the Deluxe King",
+          "at": "2026-09-16T09:55:46.543Z"
+        },
+        {
+          "role": "assistant",
+          "content": "The Deluxe King has a sea view.",
+          "at": "2026-09-16T09:55:46.543Z"
+        },
+        {
+          "role": "user",
+          "content": "Does it include breakfast?",
+          "at": "2026-09-16T09:55:46.543Z"
+        },
+        {
+          "role": "assistant",
+          "content": "Breakfast is included.",
+          "at": "2026-09-16T09:55:46.543Z"
+        }
+      ],
+      "stay": {
+        "checkIn": null,
+        "checkOut": null,
+        "guests": null,
+        "maxBudget": null,
+        "selectedRoomId": null
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "5645bebb-5abd-4620-83dc-e745ec054cdb": {
+      "id": "5645bebb-5abd-4620-83dc-e745ec054cdb",
+      "createdAt": "2026-09-16T09:55:46.595Z",
+      "updatedAt": "2026-09-16T09:55:46.604Z",
+      "messages": [
+        {
+          "role": "user",
+          "content": "What time is check-in?",
+          "at": "2026-09-16T09:55:46.603Z"
+        },
+        {
+          "role": "assistant",
+          "content": "Check-in at Asteria Grand Hotel begins at 3:00 PM. Check-out is at 11:00 AM. The front desk is open 24 hours if you need an early arrival.",
+          "at": "2026-09-16T09:55:46.603Z"
+        }
+      ],
+      "stay": {
+        "checkIn": null,
+        "checkOut": null,
+        "guests": null,
+        "maxBudget": null,
+        "selectedRoomId": null
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "9d64ad3f-4eae-4805-b2fe-8a5d0ae3484e": {
+      "id": "9d64ad3f-4eae-4805-b2fe-8a5d0ae3484e",
+      "createdAt": "2026-09-16T09:55:46.605Z",
+      "updatedAt": "2026-09-16T09:55:46.619Z",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Check room availability for 2026-09-20 to 2026-09-22 for 2 guests",
+          "at": "2026-09-16T09:55:46.606Z"
+        },
+        {
+          "role": "assistant",
+          "content": "Here are the available rooms.",
+          "at": "2026-09-16T09:55:46.606Z"
+        },
+        {
+          "role": "user",
+          "content": "show me rooms under 7k",
+          "at": "2026-09-16T09:55:46.618Z"
+        },
+        {
+          "role": "assistant",
+          "content": "Here is the room under ₹7,000/night. I found 4 options for 2 guests across 2 nights: Standard Queen, Deluxe King, Family Room and Executive Suite. Prices below are estimates in INR and are not a booking.",
+          "at": "2026-09-16T09:55:46.618Z"
+        }
+      ],
+      "stay": {
+        "checkIn": "2026-09-20",
+        "checkOut": "2026-09-22",
+        "guests": 2,
+        "maxBudget": 7000,
+        "selectedRoomId": null
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "6e2638f6-2157-4532-948f-424b3b899b17": {
+      "id": "6e2638f6-2157-4532-948f-424b3b899b17",
+      "createdAt": "2026-09-16T09:55:46.621Z",
+      "updatedAt": "2026-09-16T09:55:46.621Z",
+      "messages": [],
+      "stay": {
+        "checkIn": null,
+        "checkOut": null,
+        "guests": null,
+        "maxBudget": null,
+        "selectedRoomId": null
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "20bfc8c3-45e4-4e57-94d9-2d0227c253fb": {
+      "id": "20bfc8c3-45e4-4e57-94d9-2d0227c253fb",
+      "createdAt": "2026-09-16T09:55:46.622Z",
+      "updatedAt": "2026-09-16T09:55:46.623Z",
+      "messages": [],
+      "stay": {
+        "checkIn": null,
+        "checkOut": null,
+        "guests": null,
+        "maxBudget": null,
+        "selectedRoomId": null
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "33f6db0f-80e2-4a27-9c60-ed9e7279ca4b": {
+      "id": "33f6db0f-80e2-4a27-9c60-ed9e7279ca4b",
+      "createdAt": "2026-09-16T09:55:46.624Z",
+      "updatedAt": "2026-09-16T09:55:46.625Z",
+      "messages": [],
+      "stay": {
+        "checkIn": null,
+        "checkOut": null,
+        "guests": null,
+        "maxBudget": null,
+        "selectedRoomId": null
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "5db366ea-df34-4b17-a53c-641bcd33406f": {
+      "id": "5db366ea-df34-4b17-a53c-641bcd33406f",
+      "createdAt": "2026-09-16T09:55:46.626Z",
+      "updatedAt": "2026-09-16T09:55:46.626Z",
+      "messages": [],
+      "stay": {
+        "checkIn": null,
+        "checkOut": null,
+        "guests": null,
+        "maxBudget": null,
+        "selectedRoomId": null
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "d5434d24-e3d2-4cb6-bad8-aad533494869": {
+      "id": "d5434d24-e3d2-4cb6-bad8-aad533494869",
+      "createdAt": "2026-09-16T09:55:46.627Z",
+      "updatedAt": "2026-09-16T09:55:46.628Z",
+      "messages": [],
+      "stay": {
+        "checkIn": null,
+        "checkOut": null,
+        "guests": null,
+        "maxBudget": null,
+        "selectedRoomId": "family-room"
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "c0caa3da-187f-4eec-8bfc-60b43bbe6ecf": {
+      "id": "c0caa3da-187f-4eec-8bfc-60b43bbe6ecf",
+      "createdAt": "2026-09-16T09:55:46.629Z",
+      "updatedAt": "2026-09-16T09:55:46.630Z",
+      "messages": [],
+      "stay": {
+        "checkIn": null,
+        "checkOut": null,
+        "guests": null,
+        "maxBudget": null,
+        "selectedRoomId": null
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "802e1378-8b05-47b8-b213-0687ef27644a": {
+      "id": "802e1378-8b05-47b8-b213-0687ef27644a",
+      "createdAt": "2026-09-16T09:55:46.630Z",
+      "updatedAt": "2026-09-16T09:55:46.632Z",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Please check availability for these dates.",
+          "at": "2026-09-16T09:55:46.631Z"
+        },
+        {
+          "role": "assistant",
+          "content": "I couldn't check room availability right now. Please try again shortly.",
+          "at": "2026-09-16T09:55:46.631Z"
+        }
+      ],
+      "stay": {
+        "checkIn": "2026-09-20",
+        "checkOut": "2026-09-22",
+        "guests": 2,
+        "maxBudget": null,
+        "selectedRoomId": null
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "f723147b-63a3-4682-a252-35189aa3586c": {
+      "id": "f723147b-63a3-4682-a252-35189aa3586c",
+      "createdAt": "2026-09-16T09:55:46.632Z",
+      "updatedAt": "2026-09-16T09:55:46.633Z",
+      "messages": [],
+      "stay": {
+        "checkIn": null,
+        "checkOut": null,
+        "guests": null,
+        "maxBudget": null,
+        "selectedRoomId": null
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "c46e9656-4d40-45d6-99a6-e7c460779c24": {
+      "id": "c46e9656-4d40-45d6-99a6-e7c460779c24",
+      "createdAt": "2026-09-16T09:55:46.633Z",
+      "updatedAt": "2026-09-16T09:55:46.634Z",
+      "messages": [],
+      "stay": {
+        "checkIn": "2026-09-17",
+        "checkOut": "2026-09-18",
+        "guests": null,
+        "maxBudget": null,
+        "selectedRoomId": null
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "043b6bf2-e39d-44a9-b620-e7bd13d36803": {
+      "id": "043b6bf2-e39d-44a9-b620-e7bd13d36803",
+      "createdAt": "2026-09-16T09:55:46.634Z",
+      "updatedAt": "2026-09-16T09:55:46.635Z",
+      "messages": [],
+      "stay": {
+        "checkIn": null,
+        "checkOut": null,
+        "guests": null,
+        "maxBudget": 5000,
+        "selectedRoomId": null
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "13762e1b-f6aa-49de-bac2-a893f0a3b463": {
+      "id": "13762e1b-f6aa-49de-bac2-a893f0a3b463",
+      "createdAt": "2026-09-16T09:55:46.635Z",
+      "updatedAt": "2026-09-16T09:55:46.636Z",
+      "messages": [],
+      "stay": {
+        "checkIn": "2026-09-20",
+        "checkOut": "2026-09-22",
+        "guests": 2,
+        "maxBudget": null,
+        "selectedRoomId": null
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": "2026-09-20"
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "68b09b61-5d60-49f5-b0c1-bee6295e3d1d": {
+      "id": "68b09b61-5d60-49f5-b0c1-bee6295e3d1d",
+      "createdAt": "2026-09-16T09:55:46.636Z",
+      "updatedAt": "2026-09-16T09:55:46.636Z",
+      "messages": [],
+      "stay": {
+        "checkIn": null,
+        "checkOut": null,
+        "guests": null,
+        "maxBudget": 7000,
+        "selectedRoomId": null
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "90a15645-cd79-4475-be7b-6d46d62039a6": {
+      "id": "90a15645-cd79-4475-be7b-6d46d62039a6",
+      "createdAt": "2026-09-16T09:55:56.341Z",
+      "updatedAt": "2026-09-16T09:55:56.344Z",
+      "messages": [],
+      "stay": {
+        "checkIn": "2026-09-17",
+        "checkOut": "2026-09-18",
+        "guests": 3,
+        "maxBudget": null,
+        "selectedRoomId": "family-room"
+      },
+      "guest": {
+        "name": "Priya Sharma",
+        "email": "priya@example.com",
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "a7e70fc5-0248-4ca7-ab84-ecfe2d027720": {
+      "id": "a7e70fc5-0248-4ca7-ab84-ecfe2d027720",
+      "createdAt": "2026-09-16T09:55:56.345Z",
+      "updatedAt": "2026-09-16T09:55:56.347Z",
+      "messages": [],
+      "stay": {
+        "checkIn": "2026-09-20",
+        "checkOut": "2026-09-22",
+        "guests": 2,
+        "maxBudget": 5000,
+        "selectedRoomId": "deluxe-king"
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "eb453495-a6d9-49a4-b19f-7160ae2ab82a": {
+      "id": "eb453495-a6d9-49a4-b19f-7160ae2ab82a",
+      "createdAt": "2026-09-16T09:55:56.348Z",
+      "updatedAt": "2026-09-16T09:55:56.351Z",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Do you have a family room?",
+          "at": "2026-09-16T09:55:56.350Z"
+        },
+        {
+          "role": "assistant",
+          "content": "Yes, we have the Family Room available.",
+          "at": "2026-09-16T09:55:56.350Z"
+        }
+      ],
+      "stay": {
+        "checkIn": "2026-09-20",
+        "checkOut": "2026-09-22",
+        "guests": 2,
+        "maxBudget": 7000,
+        "selectedRoomId": "family-room"
+      },
+      "guest": {
+        "name": "Rahul Mehta",
+        "email": "rahul@example.com",
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "69001985-d005-4653-8789-13af71340344": {
+      "id": "69001985-d005-4653-8789-13af71340344",
+      "createdAt": "2026-09-16T09:55:56.362Z",
+      "updatedAt": "2026-09-16T09:55:56.362Z",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Tell me about the Deluxe King",
+          "at": "2026-09-16T09:55:56.362Z"
+        },
+        {
+          "role": "assistant",
+          "content": "The Deluxe King has a sea view.",
+          "at": "2026-09-16T09:55:56.362Z"
+        },
+        {
+          "role": "user",
+          "content": "Does it include breakfast?",
+          "at": "2026-09-16T09:55:56.362Z"
+        },
+        {
+          "role": "assistant",
+          "content": "Breakfast is included.",
+          "at": "2026-09-16T09:55:56.362Z"
+        }
+      ],
+      "stay": {
+        "checkIn": null,
+        "checkOut": null,
+        "guests": null,
+        "maxBudget": null,
+        "selectedRoomId": null
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "eb79c8ba-7f45-4138-b2b0-08aaf1c2f715": {
+      "id": "eb79c8ba-7f45-4138-b2b0-08aaf1c2f715",
+      "createdAt": "2026-09-16T09:55:56.501Z",
+      "updatedAt": "2026-09-16T09:55:56.511Z",
+      "messages": [
+        {
+          "role": "user",
+          "content": "What time is check-in?",
+          "at": "2026-09-16T09:55:56.509Z"
+        },
+        {
+          "role": "assistant",
+          "content": "Check-in at Asteria Grand Hotel begins at 3:00 PM. Check-out is at 11:00 AM. The front desk is open 24 hours if you need an early arrival.",
+          "at": "2026-09-16T09:55:56.510Z"
+        }
+      ],
+      "stay": {
+        "checkIn": null,
+        "checkOut": null,
+        "guests": null,
+        "maxBudget": null,
+        "selectedRoomId": null
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "52243e9b-0b76-4cbc-9568-190546661c57": {
+      "id": "52243e9b-0b76-4cbc-9568-190546661c57",
+      "createdAt": "2026-09-16T09:55:56.512Z",
+      "updatedAt": "2026-09-16T09:55:56.514Z",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Check room availability for 2026-09-20 to 2026-09-22 for 2 guests",
+          "at": "2026-09-16T09:55:56.512Z"
+        },
+        {
+          "role": "assistant",
+          "content": "Here are the available rooms.",
+          "at": "2026-09-16T09:55:56.512Z"
+        }
+      ],
+      "stay": {
+        "checkIn": "2026-09-20",
+        "checkOut": "2026-09-22",
+        "guests": 2,
+        "maxBudget": 7000,
+        "selectedRoomId": null
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "25822446-0a4f-44f7-8321-6413118e4432": {
+      "id": "25822446-0a4f-44f7-8321-6413118e4432",
+      "createdAt": "2026-09-16T09:55:56.515Z",
+      "updatedAt": "2026-09-16T09:55:56.516Z",
+      "messages": [],
+      "stay": {
+        "checkIn": null,
+        "checkOut": null,
+        "guests": 3,
+        "maxBudget": null,
+        "selectedRoomId": null
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "8bd9a8a7-4586-42b6-8ed6-0d85956d45c8": {
+      "id": "8bd9a8a7-4586-42b6-8ed6-0d85956d45c8",
+      "createdAt": "2026-09-16T09:55:56.530Z",
+      "updatedAt": "2026-09-16T09:55:56.531Z",
+      "messages": [],
+      "stay": {
+        "checkIn": null,
+        "checkOut": null,
+        "guests": null,
+        "maxBudget": null,
+        "selectedRoomId": null
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "ff33b397-99dd-429b-b1ea-420e65c314b4": {
+      "id": "ff33b397-99dd-429b-b1ea-420e65c314b4",
+      "createdAt": "2026-09-16T09:55:56.532Z",
+      "updatedAt": "2026-09-16T09:55:56.534Z",
+      "messages": [],
+      "stay": {
+        "checkIn": null,
+        "checkOut": null,
+        "guests": null,
+        "maxBudget": null,
+        "selectedRoomId": null
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "afd98355-4cd9-41b7-ab16-326164ca90ce": {
+      "id": "afd98355-4cd9-41b7-ab16-326164ca90ce",
+      "createdAt": "2026-09-16T09:55:56.535Z",
+      "updatedAt": "2026-09-16T09:55:56.537Z",
+      "messages": [],
+      "stay": {
+        "checkIn": null,
+        "checkOut": null,
+        "guests": null,
+        "maxBudget": null,
+        "selectedRoomId": null
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "061fb363-05ea-427a-a941-e2b2195b3a56": {
+      "id": "061fb363-05ea-427a-a941-e2b2195b3a56",
+      "createdAt": "2026-09-16T09:55:56.541Z",
+      "updatedAt": "2026-09-16T09:55:56.543Z",
+      "messages": [],
+      "stay": {
+        "checkIn": null,
+        "checkOut": null,
+        "guests": null,
+        "maxBudget": null,
+        "selectedRoomId": null
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "6b23a7b7-ab8c-43e9-a0e4-87942a57658e": {
+      "id": "6b23a7b7-ab8c-43e9-a0e4-87942a57658e",
+      "createdAt": "2026-09-16T09:55:56.547Z",
+      "updatedAt": "2026-09-16T09:55:56.548Z",
+      "messages": [],
+      "stay": {
+        "checkIn": null,
+        "checkOut": null,
+        "guests": null,
+        "maxBudget": null,
+        "selectedRoomId": null
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "78074e3f-81e7-458b-b3ef-c5f232dc20a4": {
+      "id": "78074e3f-81e7-458b-b3ef-c5f232dc20a4",
+      "createdAt": "2026-09-16T09:55:56.550Z",
+      "updatedAt": "2026-09-16T09:55:56.551Z",
+      "messages": [],
+      "stay": {
+        "checkIn": null,
+        "checkOut": null,
+        "guests": null,
+        "maxBudget": null,
+        "selectedRoomId": "family-room"
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "c7df720f-bff8-44d2-aca4-baf781e827d7": {
+      "id": "c7df720f-bff8-44d2-aca4-baf781e827d7",
+      "createdAt": "2026-09-16T09:55:56.553Z",
+      "updatedAt": "2026-09-16T09:55:56.558Z",
+      "messages": [],
+      "stay": {
+        "checkIn": null,
+        "checkOut": null,
+        "guests": null,
+        "maxBudget": null,
+        "selectedRoomId": null
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "0ccd40d9-4f6c-44e3-813d-e9ea57efeca7": {
+      "id": "0ccd40d9-4f6c-44e3-813d-e9ea57efeca7",
+      "createdAt": "2026-09-16T09:55:56.560Z",
+      "updatedAt": "2026-09-16T09:55:56.565Z",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Please check availability for these dates.",
+          "at": "2026-09-16T09:55:56.562Z"
+        },
+        {
+          "role": "assistant",
+          "content": "I couldn't check room availability right now. Please try again shortly.",
+          "at": "2026-09-16T09:55:56.563Z"
+        }
+      ],
+      "stay": {
+        "checkIn": "2026-09-20",
+        "checkOut": "2026-09-22",
+        "guests": 2,
+        "maxBudget": null,
+        "selectedRoomId": null
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "db7f84bc-6f15-4697-bf8a-e666bc51682d": {
+      "id": "db7f84bc-6f15-4697-bf8a-e666bc51682d",
+      "createdAt": "2026-09-16T09:55:56.566Z",
+      "updatedAt": "2026-09-16T09:55:56.568Z",
+      "messages": [],
+      "stay": {
+        "checkIn": null,
+        "checkOut": null,
+        "guests": null,
+        "maxBudget": null,
+        "selectedRoomId": null
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "ef1d5617-83d5-4c12-8a20-abccf1a72f14": {
+      "id": "ef1d5617-83d5-4c12-8a20-abccf1a72f14",
+      "createdAt": "2026-09-16T09:55:56.569Z",
+      "updatedAt": "2026-09-16T09:55:56.570Z",
+      "messages": [],
+      "stay": {
+        "checkIn": "2026-09-17",
+        "checkOut": "2026-09-18",
+        "guests": null,
+        "maxBudget": null,
+        "selectedRoomId": null
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "62d50282-66b2-42f9-a9be-424fa95ad054": {
+      "id": "62d50282-66b2-42f9-a9be-424fa95ad054",
+      "createdAt": "2026-09-16T09:55:56.572Z",
+      "updatedAt": "2026-09-16T09:55:56.573Z",
+      "messages": [],
+      "stay": {
+        "checkIn": null,
+        "checkOut": null,
+        "guests": null,
+        "maxBudget": 5000,
+        "selectedRoomId": null
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "f5f2ec31-aabb-4c04-83ac-0c6c2ba097d9": {
+      "id": "f5f2ec31-aabb-4c04-83ac-0c6c2ba097d9",
+      "createdAt": "2026-09-16T09:55:56.575Z",
+      "updatedAt": "2026-09-16T09:55:56.576Z",
+      "messages": [],
+      "stay": {
+        "checkIn": "2026-09-20",
+        "checkOut": "2026-09-22",
+        "guests": 2,
+        "maxBudget": null,
+        "selectedRoomId": null
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": "2026-09-20"
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "580c3031-ad61-4a98-8e54-4fa8df8595b6": {
+      "id": "580c3031-ad61-4a98-8e54-4fa8df8595b6",
+      "createdAt": "2026-09-16T09:55:56.577Z",
+      "updatedAt": "2026-09-16T09:55:56.577Z",
+      "messages": [],
+      "stay": {
+        "checkIn": null,
+        "checkOut": null,
+        "guests": null,
+        "maxBudget": 7000,
+        "selectedRoomId": null
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "cee2e5ec-3490-40f3-b568-8f1660b8fd92": {
+      "id": "cee2e5ec-3490-40f3-b568-8f1660b8fd92",
+      "createdAt": "2026-09-16T10:04:01.005Z",
+      "updatedAt": "2026-09-16T10:04:01.009Z",
+      "messages": [],
+      "stay": {
+        "checkIn": "2026-09-17",
+        "checkOut": "2026-09-18",
+        "guests": 3,
+        "maxBudget": null,
+        "selectedRoomId": "family-room"
+      },
+      "guest": {
+        "name": "Priya Sharma",
+        "email": "priya@example.com",
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "d2789624-eecd-4d04-8b4a-348120b85c75": {
+      "id": "d2789624-eecd-4d04-8b4a-348120b85c75",
+      "createdAt": "2026-09-16T10:04:01.010Z",
+      "updatedAt": "2026-09-16T10:04:01.013Z",
+      "messages": [],
+      "stay": {
+        "checkIn": "2026-09-20",
+        "checkOut": "2026-09-22",
+        "guests": 2,
+        "maxBudget": 5000,
+        "selectedRoomId": "deluxe-king"
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "5edc2813-da5f-4feb-9e33-e876db44e028": {
+      "id": "5edc2813-da5f-4feb-9e33-e876db44e028",
+      "createdAt": "2026-09-16T10:04:01.014Z",
+      "updatedAt": "2026-09-16T10:21:33.964Z",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Do you have a family room?",
+          "at": "2026-09-16T10:04:01.016Z"
+        },
+        {
+          "role": "assistant",
+          "content": "Yes, we have the Family Room available.",
+          "at": "2026-09-16T10:04:01.016Z"
+        }
+      ],
+      "stay": {
+        "checkIn": "2026-09-20",
+        "checkOut": "2026-09-22",
+        "guests": 2,
+        "maxBudget": 7000,
+        "selectedRoomId": "family-room"
+      },
+      "guest": {
+        "name": "Rahul Mehta",
+        "email": "rahul@example.com",
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": "2026-09-16T10:21:33.964Z"
+    },
+    "225fa0d7-c116-4c0a-9ca3-2dd95ac540ec": {
+      "id": "225fa0d7-c116-4c0a-9ca3-2dd95ac540ec",
+      "createdAt": "2026-09-16T10:04:01.048Z",
+      "updatedAt": "2026-09-16T10:04:01.049Z",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Tell me about the Deluxe King",
+          "at": "2026-09-16T10:04:01.049Z"
+        },
+        {
+          "role": "assistant",
+          "content": "The Deluxe King has a sea view.",
+          "at": "2026-09-16T10:04:01.049Z"
+        },
+        {
+          "role": "user",
+          "content": "Does it include breakfast?",
+          "at": "2026-09-16T10:04:01.049Z"
+        },
+        {
+          "role": "assistant",
+          "content": "Breakfast is included.",
+          "at": "2026-09-16T10:04:01.049Z"
+        }
+      ],
+      "stay": {
+        "checkIn": null,
+        "checkOut": null,
+        "guests": null,
+        "maxBudget": null,
+        "selectedRoomId": null
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "7bf2b1d1-5e01-4a8f-8738-1effbdca76ea": {
+      "id": "7bf2b1d1-5e01-4a8f-8738-1effbdca76ea",
+      "createdAt": "2026-09-16T10:04:01.106Z",
+      "updatedAt": "2026-09-16T10:04:01.112Z",
+      "messages": [
+        {
+          "role": "user",
+          "content": "What time is check-in?",
+          "at": "2026-09-16T10:04:01.112Z"
+        },
+        {
+          "role": "assistant",
+          "content": "Check-in at Asteria Grand Hotel begins at 3:00 PM. Check-out is at 11:00 AM. The front desk is open 24 hours if you need an early arrival.",
+          "at": "2026-09-16T10:04:01.112Z"
+        }
+      ],
+      "stay": {
+        "checkIn": null,
+        "checkOut": null,
+        "guests": null,
+        "maxBudget": null,
+        "selectedRoomId": null
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "0fa73846-ea41-403d-8a04-9d10b50cdd5d": {
+      "id": "0fa73846-ea41-403d-8a04-9d10b50cdd5d",
+      "createdAt": "2026-09-16T10:04:01.113Z",
+      "updatedAt": "2026-09-16T10:21:29.894Z",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Check room availability for 2026-09-20 to 2026-09-22 for 2 guests",
+          "at": "2026-09-16T10:04:01.114Z"
+        },
+        {
+          "role": "assistant",
+          "content": "Here are the available rooms.",
+          "at": "2026-09-16T10:04:01.114Z"
+        },
+        {
+          "role": "user",
+          "content": "show me rooms under 7k",
+          "at": "2026-09-16T10:04:01.127Z"
+        },
+        {
+          "role": "assistant",
+          "content": "Here is the room under ₹7,000/night. I found 4 options for 2 guests across 2 nights: Standard Queen, Deluxe King, Family Room and Executive Suite. Prices below are estimates in INR and are not a booking.",
+          "at": "2026-09-16T10:04:01.128Z"
+        }
+      ],
+      "stay": {
+        "checkIn": "2026-09-20",
+        "checkOut": "2026-09-22",
+        "guests": 2,
+        "maxBudget": 7000,
+        "selectedRoomId": null
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": "2026-09-16T10:21:29.894Z"
+    },
+    "cb8e0e6e-36e2-442c-877d-734dad4c70ff": {
+      "id": "cb8e0e6e-36e2-442c-877d-734dad4c70ff",
+      "createdAt": "2026-09-16T10:04:01.133Z",
+      "updatedAt": "2026-09-16T10:04:01.133Z",
+      "messages": [],
+      "stay": {
+        "checkIn": null,
+        "checkOut": null,
+        "guests": null,
+        "maxBudget": null,
+        "selectedRoomId": null
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "7bc52a11-cd08-499e-b269-d4d3dd7574bf": {
+      "id": "7bc52a11-cd08-499e-b269-d4d3dd7574bf",
+      "createdAt": "2026-09-16T10:04:01.134Z",
+      "updatedAt": "2026-09-16T10:04:01.135Z",
+      "messages": [],
+      "stay": {
+        "checkIn": null,
+        "checkOut": null,
+        "guests": null,
+        "maxBudget": null,
+        "selectedRoomId": null
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "f572e466-7ca7-4c7e-afba-43a8c13f29cd": {
+      "id": "f572e466-7ca7-4c7e-afba-43a8c13f29cd",
+      "createdAt": "2026-09-16T10:04:01.136Z",
+      "updatedAt": "2026-09-16T10:04:01.136Z",
+      "messages": [],
+      "stay": {
+        "checkIn": null,
+        "checkOut": null,
+        "guests": null,
+        "maxBudget": null,
+        "selectedRoomId": null
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "4cf03a48-fe9f-4767-a739-b366bc9b9373": {
+      "id": "4cf03a48-fe9f-4767-a739-b366bc9b9373",
+      "createdAt": "2026-09-16T10:04:01.137Z",
+      "updatedAt": "2026-09-16T10:04:01.138Z",
+      "messages": [],
+      "stay": {
+        "checkIn": null,
+        "checkOut": null,
+        "guests": null,
+        "maxBudget": null,
+        "selectedRoomId": null
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "000fc34e-065e-469d-8ede-58e7ce48cc23": {
+      "id": "000fc34e-065e-469d-8ede-58e7ce48cc23",
+      "createdAt": "2026-09-16T10:04:01.139Z",
+      "updatedAt": "2026-09-16T10:04:01.140Z",
+      "messages": [],
+      "stay": {
+        "checkIn": null,
+        "checkOut": null,
+        "guests": null,
+        "maxBudget": null,
+        "selectedRoomId": null
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "6e7f61c6-a22e-4552-a914-359b9e3bdee0": {
+      "id": "6e7f61c6-a22e-4552-a914-359b9e3bdee0",
+      "createdAt": "2026-09-16T10:04:01.141Z",
+      "updatedAt": "2026-09-16T10:04:01.142Z",
+      "messages": [],
+      "stay": {
+        "checkIn": null,
+        "checkOut": null,
+        "guests": null,
+        "maxBudget": null,
+        "selectedRoomId": "family-room"
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "47c4b6a6-cd6a-4552-b384-1120f1c7678b": {
+      "id": "47c4b6a6-cd6a-4552-b384-1120f1c7678b",
+      "createdAt": "2026-09-16T10:04:01.143Z",
+      "updatedAt": "2026-09-16T10:04:01.144Z",
+      "messages": [],
+      "stay": {
+        "checkIn": null,
+        "checkOut": null,
+        "guests": null,
+        "maxBudget": null,
+        "selectedRoomId": null
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "00c18bc9-9d12-4641-9a9f-03add2959720": {
+      "id": "00c18bc9-9d12-4641-9a9f-03add2959720",
+      "createdAt": "2026-09-16T10:04:01.144Z",
+      "updatedAt": "2026-09-16T10:21:57.670Z",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Please check availability for these dates.",
+          "at": "2026-09-16T10:04:01.145Z"
+        },
+        {
+          "role": "assistant",
+          "content": "I couldn't check room availability right now. Please try again shortly.",
+          "at": "2026-09-16T10:04:01.146Z"
+        }
+      ],
+      "stay": {
+        "checkIn": "2026-09-20",
+        "checkOut": "2026-09-22",
+        "guests": 2,
+        "maxBudget": null,
+        "selectedRoomId": null
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": "2026-09-16T10:21:57.670Z"
+    },
+    "941b1608-4b5b-4bbc-8ef3-c90c9780ca7c": {
+      "id": "941b1608-4b5b-4bbc-8ef3-c90c9780ca7c",
+      "createdAt": "2026-09-16T10:04:01.147Z",
+      "updatedAt": "2026-09-16T10:04:01.147Z",
+      "messages": [],
+      "stay": {
+        "checkIn": null,
+        "checkOut": null,
+        "guests": null,
+        "maxBudget": null,
+        "selectedRoomId": null
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "e9253b62-6be3-47c8-adbe-4785614b28d1": {
+      "id": "e9253b62-6be3-47c8-adbe-4785614b28d1",
+      "createdAt": "2026-09-16T10:04:01.148Z",
+      "updatedAt": "2026-09-16T10:04:01.148Z",
+      "messages": [],
+      "stay": {
+        "checkIn": "2026-09-17",
+        "checkOut": "2026-09-18",
+        "guests": null,
+        "maxBudget": null,
+        "selectedRoomId": null
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "07cc0ab7-35ab-4918-b19f-5641012db9bc": {
+      "id": "07cc0ab7-35ab-4918-b19f-5641012db9bc",
+      "createdAt": "2026-09-16T10:04:01.149Z",
+      "updatedAt": "2026-09-16T10:04:01.150Z",
+      "messages": [],
+      "stay": {
+        "checkIn": null,
+        "checkOut": null,
+        "guests": null,
+        "maxBudget": 5000,
+        "selectedRoomId": null
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "c63433c0-dfad-44e8-974b-860a20f34521": {
+      "id": "c63433c0-dfad-44e8-974b-860a20f34521",
+      "createdAt": "2026-09-16T10:04:01.151Z",
+      "updatedAt": "2026-09-16T10:04:01.151Z",
+      "messages": [],
+      "stay": {
+        "checkIn": "2026-09-20",
+        "checkOut": "2026-09-22",
+        "guests": 2,
+        "maxBudget": null,
+        "selectedRoomId": null
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": "2026-09-20"
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "f579a1e7-9c52-46bd-bcf1-d7432c8f42a6": {
+      "id": "f579a1e7-9c52-46bd-bcf1-d7432c8f42a6",
+      "createdAt": "2026-09-16T10:04:01.152Z",
+      "updatedAt": "2026-09-16T10:04:01.152Z",
+      "messages": [],
+      "stay": {
+        "checkIn": null,
+        "checkOut": null,
+        "guests": null,
+        "maxBudget": 7000,
+        "selectedRoomId": null
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "66c0eb31-b78d-498b-8b29-692b909c7f4a": {
+      "id": "66c0eb31-b78d-498b-8b29-692b909c7f4a",
+      "createdAt": "2026-09-16T10:22:38.287Z",
+      "updatedAt": "2026-09-16T10:22:38.290Z",
+      "messages": [],
+      "stay": {
+        "checkIn": "2026-09-17",
+        "checkOut": "2026-09-18",
+        "guests": 3,
+        "maxBudget": null,
+        "selectedRoomId": "family-room"
+      },
+      "guest": {
+        "name": "Priya Sharma",
+        "email": "priya@example.com",
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "f4b91b56-e0a6-4bda-96e8-f03fabae2638": {
+      "id": "f4b91b56-e0a6-4bda-96e8-f03fabae2638",
+      "createdAt": "2026-09-16T10:22:38.291Z",
+      "updatedAt": "2026-09-16T10:22:38.294Z",
+      "messages": [],
+      "stay": {
+        "checkIn": "2026-09-20",
+        "checkOut": "2026-09-22",
+        "guests": 2,
+        "maxBudget": 5000,
+        "selectedRoomId": "deluxe-king"
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "e18ee8c4-5314-4ab5-855a-f1285cc4e995": {
+      "id": "e18ee8c4-5314-4ab5-855a-f1285cc4e995",
+      "createdAt": "2026-09-16T10:22:38.295Z",
+      "updatedAt": "2026-09-16T10:22:38.297Z",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Do you have a family room?",
+          "at": "2026-09-16T10:22:38.297Z"
+        },
+        {
+          "role": "assistant",
+          "content": "Yes, we have the Family Room available.",
+          "at": "2026-09-16T10:22:38.297Z"
+        }
+      ],
+      "stay": {
+        "checkIn": "2026-09-20",
+        "checkOut": "2026-09-22",
+        "guests": 2,
+        "maxBudget": 7000,
+        "selectedRoomId": "family-room"
+      },
+      "guest": {
+        "name": "Rahul Mehta",
+        "email": "rahul@example.com",
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": "2026-09-16T10:22:38.297Z",
+      "staffLastReadAt": null
+    },
+    "7b11ca1b-dd89-47c2-9095-0c7be821a2b3": {
+      "id": "7b11ca1b-dd89-47c2-9095-0c7be821a2b3",
+      "createdAt": "2026-09-16T10:22:38.339Z",
+      "updatedAt": "2026-09-16T10:22:38.341Z",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Tell me about the Deluxe King",
+          "at": "2026-09-16T10:22:38.341Z"
+        },
+        {
+          "role": "assistant",
+          "content": "The Deluxe King has a sea view.",
+          "at": "2026-09-16T10:22:38.341Z"
+        },
+        {
+          "role": "user",
+          "content": "Does it include breakfast?",
+          "at": "2026-09-16T10:22:38.341Z"
+        },
+        {
+          "role": "assistant",
+          "content": "Breakfast is included.",
+          "at": "2026-09-16T10:22:38.341Z"
+        }
+      ],
+      "stay": {
+        "checkIn": null,
+        "checkOut": null,
+        "guests": null,
+        "maxBudget": null,
+        "selectedRoomId": null
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": "2026-09-16T10:22:38.341Z",
+      "staffLastReadAt": null
+    },
+    "2476aab4-a45d-49be-bd15-ec81c02c39bb": {
+      "id": "2476aab4-a45d-49be-bd15-ec81c02c39bb",
+      "createdAt": "2026-09-16T10:22:38.426Z",
+      "updatedAt": "2026-09-16T10:22:38.436Z",
+      "messages": [
+        {
+          "role": "user",
+          "content": "What time is check-in?",
+          "at": "2026-09-16T10:22:38.435Z"
+        },
+        {
+          "role": "assistant",
+          "content": "Check-in at Asteria Grand Hotel begins at 3:00 PM. Check-out is at 11:00 AM. The front desk is open 24 hours if you need an early arrival.",
+          "at": "2026-09-16T10:22:38.436Z"
+        }
+      ],
+      "stay": {
+        "checkIn": null,
+        "checkOut": null,
+        "guests": null,
+        "maxBudget": null,
+        "selectedRoomId": null
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": "2026-09-16T10:22:38.435Z",
+      "staffLastReadAt": null
+    },
+    "012218d2-41d5-4e1e-b91b-339407e2974e": {
+      "id": "012218d2-41d5-4e1e-b91b-339407e2974e",
+      "createdAt": "2026-09-16T10:22:38.438Z",
+      "updatedAt": "2026-09-16T10:22:38.439Z",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Hello from Rahul-1789554158438",
+          "at": "2026-09-16T10:22:38.439Z"
+        },
+        {
+          "role": "assistant",
+          "content": "Leela reply for Rahul-1789554158438",
+          "at": "2026-09-16T10:22:38.439Z"
+        }
+      ],
+      "stay": {
+        "checkIn": null,
+        "checkOut": null,
+        "guests": null,
+        "maxBudget": null,
+        "selectedRoomId": null
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": "2026-09-16T10:22:38.439Z",
+      "staffLastReadAt": null
+    },
+    "83df656c-8297-4f78-8210-aa64e8682efb": {
+      "id": "83df656c-8297-4f78-8210-aa64e8682efb",
+      "createdAt": "2026-09-16T10:22:38.440Z",
+      "updatedAt": "2026-09-16T10:22:38.442Z",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Check room availability for 2026-09-20 to 2026-09-22 for 2 guests",
+          "at": "2026-09-16T10:22:38.442Z"
+        },
+        {
+          "role": "assistant",
+          "content": "Here are the available rooms.",
+          "at": "2026-09-16T10:22:38.442Z"
+        }
+      ],
+      "stay": {
+        "checkIn": null,
+        "checkOut": null,
+        "guests": null,
+        "maxBudget": null,
+        "selectedRoomId": null
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": "2026-09-16T10:22:38.442Z",
+      "staffLastReadAt": null
+    },
+    "95734e5f-0da1-4b20-b606-90ba593c500f": {
+      "id": "95734e5f-0da1-4b20-b606-90ba593c500f",
+      "createdAt": "2026-09-16T10:22:38.443Z",
+      "updatedAt": "2026-09-16T10:22:38.455Z",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Hello from DeskLive-1789554158443",
+          "at": "2026-09-16T10:22:38.445Z"
+        },
+        {
+          "role": "assistant",
+          "content": "Leela reply for DeskLive-1789554158443",
+          "at": "2026-09-16T10:22:38.445Z"
+        },
+        {
+          "role": "user",
+          "content": "Can someone confirm the late checkout?",
+          "at": "2026-09-16T10:22:38.453Z"
+        }
+      ],
+      "stay": {
+        "checkIn": null,
+        "checkOut": null,
+        "guests": null,
+        "maxBudget": null,
+        "selectedRoomId": null
+      },
+      "guest": {
+        "name": "DeskLive-1789554158443",
+        "email": "desklive-1789554158443@example.com",
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "staff",
+      "assignedTo": "Front desk",
+      "takenOverAt": "2026-09-16T10:22:38.446Z",
+      "lastGuestMessageAt": "2026-09-16T10:22:38.453Z",
+      "staffLastReadAt": null
+    },
+    "623380d7-c844-4ed6-88f6-696914999f26": {
+      "id": "623380d7-c844-4ed6-88f6-696914999f26",
+      "createdAt": "2026-09-16T10:22:38.456Z",
+      "updatedAt": "2026-09-16T10:22:38.461Z",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Hello from Handback-1789554158456",
+          "at": "2026-09-16T10:22:38.457Z"
+        },
+        {
+          "role": "assistant",
+          "content": "Leela reply for Handback-1789554158456",
+          "at": "2026-09-16T10:22:38.457Z"
+        },
+        {
+          "role": "staff",
+          "content": "I can look that up for you.",
+          "at": "2026-09-16T10:22:38.460Z",
+          "authorName": "Neha"
+        }
+      ],
+      "stay": {
+        "checkIn": null,
+        "checkOut": null,
+        "guests": null,
+        "maxBudget": null,
+        "selectedRoomId": null
+      },
+      "guest": {
+        "name": "Handback-1789554158456",
+        "email": "handback-1789554158456@example.com",
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": "2026-09-16T10:22:38.457Z",
+      "staffLastReadAt": null
+    },
+    "3c9e616e-0fac-4b38-a743-ea37383bbc43": {
+      "id": "3c9e616e-0fac-4b38-a743-ea37383bbc43",
+      "createdAt": "2026-09-16T10:22:38.461Z",
+      "updatedAt": "2026-09-16T10:22:38.462Z",
+      "messages": [],
+      "stay": {
+        "checkIn": null,
+        "checkOut": null,
+        "guests": null,
+        "maxBudget": null,
+        "selectedRoomId": null
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "e7c07283-ef44-4e96-a1e6-431ea1b9f523": {
+      "id": "e7c07283-ef44-4e96-a1e6-431ea1b9f523",
+      "createdAt": "2026-09-16T10:22:38.464Z",
+      "updatedAt": "2026-09-16T10:22:38.466Z",
+      "messages": [],
+      "stay": {
+        "checkIn": null,
+        "checkOut": null,
+        "guests": null,
+        "maxBudget": null,
+        "selectedRoomId": null
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "2e8f7d54-bad6-4d77-8a4a-a172ea9965ed": {
+      "id": "2e8f7d54-bad6-4d77-8a4a-a172ea9965ed",
+      "createdAt": "2026-09-16T10:22:38.469Z",
+      "updatedAt": "2026-09-16T10:22:38.470Z",
+      "messages": [],
+      "stay": {
+        "checkIn": null,
+        "checkOut": null,
+        "guests": null,
+        "maxBudget": null,
+        "selectedRoomId": null
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "3ea0db91-2a96-4e77-a100-33c8e0b0e4eb": {
+      "id": "3ea0db91-2a96-4e77-a100-33c8e0b0e4eb",
+      "createdAt": "2026-09-16T10:22:38.471Z",
+      "updatedAt": "2026-09-16T10:22:38.472Z",
+      "messages": [],
+      "stay": {
+        "checkIn": null,
+        "checkOut": null,
+        "guests": null,
+        "maxBudget": null,
+        "selectedRoomId": "family-room"
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "394c91fa-2946-41bc-b4e4-30aa3b9d1555": {
+      "id": "394c91fa-2946-41bc-b4e4-30aa3b9d1555",
+      "createdAt": "2026-09-16T10:22:38.473Z",
+      "updatedAt": "2026-09-16T10:22:38.474Z",
+      "messages": [],
+      "stay": {
+        "checkIn": null,
+        "checkOut": null,
+        "guests": null,
+        "maxBudget": null,
+        "selectedRoomId": null
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "12518404-bd93-4ffb-8535-78d313c290d3": {
+      "id": "12518404-bd93-4ffb-8535-78d313c290d3",
+      "createdAt": "2026-09-16T10:22:38.475Z",
+      "updatedAt": "2026-09-16T10:22:38.480Z",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Please check availability for these dates.",
+          "at": "2026-09-16T10:22:38.478Z"
+        },
+        {
+          "role": "assistant",
+          "content": "I couldn't check room availability right now. Please try again shortly.",
+          "at": "2026-09-16T10:22:38.479Z"
+        }
+      ],
+      "stay": {
+        "checkIn": "2026-09-20",
+        "checkOut": "2026-09-22",
+        "guests": 2,
+        "maxBudget": null,
+        "selectedRoomId": null
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": "2026-09-16T10:22:38.478Z",
+      "staffLastReadAt": null
+    },
+    "6a0b6b0d-9a55-468d-8345-424f99a318b5": {
+      "id": "6a0b6b0d-9a55-468d-8345-424f99a318b5",
+      "createdAt": "2026-09-16T10:22:38.482Z",
+      "updatedAt": "2026-09-16T10:22:38.483Z",
+      "messages": [],
+      "stay": {
+        "checkIn": null,
+        "checkOut": null,
+        "guests": null,
+        "maxBudget": null,
+        "selectedRoomId": null
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "8ed7a6f8-0674-4d5a-a62e-e9f1c58319e0": {
+      "id": "8ed7a6f8-0674-4d5a-a62e-e9f1c58319e0",
+      "createdAt": "2026-09-16T10:22:38.484Z",
+      "updatedAt": "2026-09-16T10:22:38.486Z",
+      "messages": [],
+      "stay": {
+        "checkIn": "2026-09-17",
+        "checkOut": "2026-09-18",
+        "guests": null,
+        "maxBudget": null,
+        "selectedRoomId": null
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "63a69125-a237-4d21-83bb-05e214ba4b94": {
+      "id": "63a69125-a237-4d21-83bb-05e214ba4b94",
+      "createdAt": "2026-09-16T10:22:38.487Z",
+      "updatedAt": "2026-09-16T10:22:38.488Z",
+      "messages": [],
+      "stay": {
+        "checkIn": null,
+        "checkOut": null,
+        "guests": null,
+        "maxBudget": 5000,
+        "selectedRoomId": null
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "ad27584e-b7eb-4e23-9030-b3f35a441f5a": {
+      "id": "ad27584e-b7eb-4e23-9030-b3f35a441f5a",
+      "createdAt": "2026-09-16T10:22:38.489Z",
+      "updatedAt": "2026-09-16T10:22:38.490Z",
+      "messages": [],
+      "stay": {
+        "checkIn": "2026-09-20",
+        "checkOut": "2026-09-22",
+        "guests": 2,
+        "maxBudget": null,
+        "selectedRoomId": null
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": "2026-09-20"
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "92b563f8-8cdd-4a76-936f-e2b2874873d4": {
+      "id": "92b563f8-8cdd-4a76-936f-e2b2874873d4",
+      "createdAt": "2026-09-16T10:22:38.491Z",
+      "updatedAt": "2026-09-16T10:22:38.491Z",
+      "messages": [],
+      "stay": {
+        "checkIn": null,
+        "checkOut": null,
+        "guests": null,
+        "maxBudget": 7000,
+        "selectedRoomId": null
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "fc1e2921-dab8-4cef-9f44-b75036d3a795": {
+      "id": "fc1e2921-dab8-4cef-9f44-b75036d3a795",
+      "createdAt": "2026-09-16T10:36:17.217Z",
+      "updatedAt": "2026-09-16T10:36:17.223Z",
+      "messages": [],
+      "stay": {
+        "checkIn": "2026-09-17",
+        "checkOut": "2026-09-18",
+        "guests": 3,
+        "maxBudget": null,
+        "selectedRoomId": "family-room"
+      },
+      "guest": {
+        "name": "Priya Sharma",
+        "email": "priya@example.com",
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "9a882834-a48d-47d1-a1d8-8d1c3c1d7d00": {
+      "id": "9a882834-a48d-47d1-a1d8-8d1c3c1d7d00",
+      "createdAt": "2026-09-16T10:36:17.225Z",
+      "updatedAt": "2026-09-16T10:36:17.228Z",
+      "messages": [],
+      "stay": {
+        "checkIn": "2026-09-20",
+        "checkOut": "2026-09-22",
+        "guests": 2,
+        "maxBudget": 5000,
+        "selectedRoomId": "deluxe-king"
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "337fb58f-a68f-4418-99aa-3f3710628d88": {
+      "id": "337fb58f-a68f-4418-99aa-3f3710628d88",
+      "createdAt": "2026-09-16T10:36:17.230Z",
+      "updatedAt": "2026-09-16T10:36:17.232Z",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Do you have a family room?",
+          "at": "2026-09-16T10:36:17.232Z"
+        },
+        {
+          "role": "assistant",
+          "content": "Yes, we have the Family Room available.",
+          "at": "2026-09-16T10:36:17.232Z"
+        }
+      ],
+      "stay": {
+        "checkIn": "2026-09-20",
+        "checkOut": "2026-09-22",
+        "guests": 2,
+        "maxBudget": 7000,
+        "selectedRoomId": "family-room"
+      },
+      "guest": {
+        "name": "Rahul Mehta",
+        "email": "rahul@example.com",
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": "2026-09-16T10:36:17.232Z",
+      "staffLastReadAt": null
+    },
+    "cdfdb365-a2f5-4c1e-be83-1d6fddfb2e04": {
+      "id": "cdfdb365-a2f5-4c1e-be83-1d6fddfb2e04",
+      "createdAt": "2026-09-16T10:36:17.262Z",
+      "updatedAt": "2026-09-16T10:36:17.277Z",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Tell me about the Deluxe King",
+          "at": "2026-09-16T10:36:17.277Z"
+        },
+        {
+          "role": "assistant",
+          "content": "The Deluxe King has a sea view.",
+          "at": "2026-09-16T10:36:17.277Z"
+        },
+        {
+          "role": "user",
+          "content": "Does it include breakfast?",
+          "at": "2026-09-16T10:36:17.277Z"
+        },
+        {
+          "role": "assistant",
+          "content": "Breakfast is included.",
+          "at": "2026-09-16T10:36:17.277Z"
+        }
+      ],
+      "stay": {
+        "checkIn": null,
+        "checkOut": null,
+        "guests": null,
+        "maxBudget": null,
+        "selectedRoomId": null
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": "2026-09-16T10:36:17.277Z",
+      "staffLastReadAt": null
+    },
+    "8500e372-a128-4670-a535-906d9d04fc63": {
+      "id": "8500e372-a128-4670-a535-906d9d04fc63",
+      "createdAt": "2026-09-16T10:36:17.344Z",
+      "updatedAt": "2026-09-16T10:36:17.356Z",
+      "messages": [
+        {
+          "role": "user",
+          "content": "What time is check-in?",
+          "at": "2026-09-16T10:36:17.353Z"
+        },
+        {
+          "role": "assistant",
+          "content": "Check-in at Asteria Grand Hotel begins at 3:00 PM. Check-out is at 11:00 AM. The front desk is open 24 hours if you need an early arrival.",
+          "at": "2026-09-16T10:36:17.355Z"
+        }
+      ],
+      "stay": {
+        "checkIn": null,
+        "checkOut": null,
+        "guests": null,
+        "maxBudget": null,
+        "selectedRoomId": null
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": "2026-09-16T10:36:17.353Z",
+      "staffLastReadAt": null
+    },
+    "d297b456-a6ba-4e6c-ba63-8218277118b7": {
+      "id": "d297b456-a6ba-4e6c-ba63-8218277118b7",
+      "createdAt": "2026-09-16T10:36:17.358Z",
+      "updatedAt": "2026-09-16T10:36:17.377Z",
+      "messages": [],
+      "stay": {
+        "checkIn": null,
+        "checkOut": null,
+        "guests": null,
+        "maxBudget": null,
+        "selectedRoomId": null
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": "AST-CCCD",
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "1d9a1401-462a-4097-832c-bd54546d446e": {
+      "id": "1d9a1401-462a-4097-832c-bd54546d446e",
+      "createdAt": "2026-09-16T10:36:17.378Z",
+      "updatedAt": "2026-09-16T10:36:17.380Z",
+      "messages": [],
+      "stay": {
+        "checkIn": null,
+        "checkOut": null,
+        "guests": null,
+        "maxBudget": null,
+        "selectedRoomId": null
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "44fc0f84-6859-4f6b-b44f-3bafef4d0f37": {
+      "id": "44fc0f84-6859-4f6b-b44f-3bafef4d0f37",
+      "createdAt": "2026-09-16T10:36:17.382Z",
+      "updatedAt": "2026-09-16T10:36:17.385Z",
+      "messages": [],
+      "stay": {
+        "checkIn": null,
+        "checkOut": null,
+        "guests": null,
+        "maxBudget": null,
+        "selectedRoomId": null
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "a1e36fd0-94a5-4b3f-a417-953e0af863b9": {
+      "id": "a1e36fd0-94a5-4b3f-a417-953e0af863b9",
+      "createdAt": "2026-09-16T10:36:17.387Z",
+      "updatedAt": "2026-09-16T10:36:17.389Z",
+      "messages": [],
+      "stay": {
+        "checkIn": null,
+        "checkOut": null,
+        "guests": null,
+        "maxBudget": null,
+        "selectedRoomId": null
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "70d5d54c-346f-475c-95af-aee7f374d59b": {
+      "id": "70d5d54c-346f-475c-95af-aee7f374d59b",
+      "createdAt": "2026-09-16T10:36:17.391Z",
+      "updatedAt": "2026-09-16T10:36:17.392Z",
+      "messages": [],
+      "stay": {
+        "checkIn": null,
+        "checkOut": null,
+        "guests": null,
+        "maxBudget": null,
+        "selectedRoomId": null
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "ea6ffe0d-e2f8-4b0e-9f4f-84e2b82cbef6": {
+      "id": "ea6ffe0d-e2f8-4b0e-9f4f-84e2b82cbef6",
+      "createdAt": "2026-09-16T10:36:17.393Z",
+      "updatedAt": "2026-09-16T10:36:17.394Z",
+      "messages": [],
+      "stay": {
+        "checkIn": null,
+        "checkOut": null,
+        "guests": null,
+        "maxBudget": null,
+        "selectedRoomId": "family-room"
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "b59587cc-624d-4af5-8cb9-ef240ff33bd2": {
+      "id": "b59587cc-624d-4af5-8cb9-ef240ff33bd2",
+      "createdAt": "2026-09-16T10:36:17.395Z",
+      "updatedAt": "2026-09-16T10:36:17.397Z",
+      "messages": [],
+      "stay": {
+        "checkIn": null,
+        "checkOut": null,
+        "guests": null,
+        "maxBudget": null,
+        "selectedRoomId": null
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "0838bff0-4d5c-4c54-85b8-a91f3d8adabc": {
+      "id": "0838bff0-4d5c-4c54-85b8-a91f3d8adabc",
+      "createdAt": "2026-09-16T10:36:17.398Z",
+      "updatedAt": "2026-09-16T10:36:17.401Z",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Please check availability for these dates.",
+          "at": "2026-09-16T10:36:17.400Z"
+        },
+        {
+          "role": "assistant",
+          "content": "I couldn't check room availability right now. Please try again shortly.",
+          "at": "2026-09-16T10:36:17.400Z"
+        }
+      ],
+      "stay": {
+        "checkIn": "2026-09-20",
+        "checkOut": "2026-09-22",
+        "guests": 2,
+        "maxBudget": null,
+        "selectedRoomId": null
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": "2026-09-16T10:36:17.400Z",
+      "staffLastReadAt": null
+    },
+    "d8f8bd6b-b735-45c7-8f7d-15bc20f984aa": {
+      "id": "d8f8bd6b-b735-45c7-8f7d-15bc20f984aa",
+      "createdAt": "2026-09-16T10:36:17.403Z",
+      "updatedAt": "2026-09-16T10:36:17.405Z",
+      "messages": [],
+      "stay": {
+        "checkIn": null,
+        "checkOut": null,
+        "guests": null,
+        "maxBudget": null,
+        "selectedRoomId": null
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "ece1ca35-14e2-4064-8e29-23ebf4876fac": {
+      "id": "ece1ca35-14e2-4064-8e29-23ebf4876fac",
+      "createdAt": "2026-09-16T10:36:17.406Z",
+      "updatedAt": "2026-09-16T10:36:17.408Z",
+      "messages": [],
+      "stay": {
+        "checkIn": "2026-09-17",
+        "checkOut": "2026-09-18",
+        "guests": null,
+        "maxBudget": null,
+        "selectedRoomId": null
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "d17eb1ad-ebaa-4a6b-a7f0-251480535332": {
+      "id": "d17eb1ad-ebaa-4a6b-a7f0-251480535332",
+      "createdAt": "2026-09-16T10:36:17.409Z",
+      "updatedAt": "2026-09-16T10:36:17.411Z",
+      "messages": [],
+      "stay": {
+        "checkIn": null,
+        "checkOut": null,
+        "guests": null,
+        "maxBudget": 5000,
+        "selectedRoomId": null
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "ae546b73-b5f2-4718-b66f-e37f22475a45": {
+      "id": "ae546b73-b5f2-4718-b66f-e37f22475a45",
+      "createdAt": "2026-09-16T10:36:17.413Z",
+      "updatedAt": "2026-09-16T10:36:17.415Z",
+      "messages": [],
+      "stay": {
+        "checkIn": "2026-09-20",
+        "checkOut": "2026-09-22",
+        "guests": 2,
+        "maxBudget": null,
+        "selectedRoomId": null
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": "2026-09-20"
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "b22ecc09-06ba-410d-8350-83150ff77783": {
+      "id": "b22ecc09-06ba-410d-8350-83150ff77783",
+      "createdAt": "2026-09-16T10:36:17.416Z",
+      "updatedAt": "2026-09-16T10:36:17.417Z",
+      "messages": [],
+      "stay": {
+        "checkIn": null,
+        "checkOut": null,
+        "guests": null,
+        "maxBudget": 7000,
+        "selectedRoomId": null
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": null,
+      "staffLastReadAt": null
+    },
+    "d14f0d47-add5-48d0-a71b-4b5066a9a153": {
+      "id": "d14f0d47-add5-48d0-a71b-4b5066a9a153",
+      "createdAt": "2026-09-16T10:52:26.634Z",
+      "updatedAt": "2026-09-16T10:52:28.037Z",
+      "messages": [
+        {
+          "role": "user",
+          "content": "What time is check-in?",
+          "at": "2026-09-16T10:52:28.035Z"
+        },
+        {
+          "role": "assistant",
+          "content": "Check‑in begins at 3:00 PM (and we’re happy to help with any early‑arrival requests).",
+          "at": "2026-09-16T10:52:28.036Z"
+        }
+      ],
+      "stay": {
+        "checkIn": null,
+        "checkOut": null,
+        "guests": null,
+        "maxBudget": null,
+        "selectedRoomId": null
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": "2026-09-16T10:52:28.035Z",
+      "staffLastReadAt": null
+    },
+    "a844757b-3f58-413c-82a4-b2d888aff1d4": {
+      "id": "a844757b-3f58-413c-82a4-b2d888aff1d4",
+      "createdAt": "2026-09-16T10:55:43.332Z",
+      "updatedAt": "2026-09-16T11:02:27.768Z",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Check room availability",
+          "at": "2026-09-16T10:55:44.328Z"
+        },
+        {
+          "role": "assistant",
+          "content": "Sure! Could you let me know the check‑in and check‑out dates you’re interested in, as well as the number of guests?",
+          "at": "2026-09-16T10:55:44.329Z"
+        },
+        {
+          "role": "user",
+          "content": "Check room availability",
+          "at": "2026-09-16T11:02:27.765Z"
+        },
+        {
+          "role": "assistant",
+          "content": "Got it! Could you share the check‑in and check‑out dates you have in mind, and how many guests will be staying?",
+          "at": "2026-09-16T11:02:27.767Z"
+        }
+      ],
+      "stay": {
+        "checkIn": null,
+        "checkOut": null,
+        "guests": null,
+        "maxBudget": null,
+        "selectedRoomId": null
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": "2026-09-16T11:02:27.765Z",
+      "staffLastReadAt": null
+    },
+    "4915c124-70d6-4525-9bd4-4769d77e38ef": {
+      "id": "4915c124-70d6-4525-9bd4-4769d77e38ef",
+      "createdAt": "2026-09-16T11:03:31.741Z",
+      "updatedAt": "2026-09-16T11:05:53.665Z",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Check room availability",
+          "at": "2026-09-16T11:03:32.709Z"
+        },
+        {
+          "role": "assistant",
+          "content": "Sure! Could you let me know the check‑in and check‑out dates you have in mind, as well as the number of guests?",
+          "at": "2026-09-16T11:03:32.710Z"
+        },
+        {
+          "role": "user",
+          "content": "tomorrow",
+          "at": "2026-09-16T11:05:53.663Z"
+        },
+        {
+          "role": "assistant",
+          "content": "I’ve checked for a one‑night stay (check‑in 2026‑09‑17, check‑out 2026‑09‑18) for 2 guests and all four of our rooms are available:\n\n- **Standard Queen** – ₹6,500 / night (breakfast not included)  \n- **Deluxe King** – ₹8,200 / night (breakfast included)  \n- **Family Room** – ₹8,500 / night (breakfast included, fits up to 4 guests)  \n- **Executive Suite** – ₹14,500 / night (breakfast included, fits up to 3 guests)\n\nLet me know which one you’d like to hold, or if you have a budget or any other preferences!",
+          "at": "2026-09-16T11:05:53.664Z"
+        }
+      ],
+      "stay": {
+        "checkIn": "2026-09-17",
+        "checkOut": "2026-09-18",
+        "guests": 2,
+        "maxBudget": null,
+        "selectedRoomId": null
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": "2026-09-16T11:05:53.663Z",
+      "staffLastReadAt": null
+    },
+    "2ddaab58-00ec-4490-89b5-b168ed9c0fff": {
+      "id": "2ddaab58-00ec-4490-89b5-b168ed9c0fff",
+      "createdAt": "2026-09-16T11:09:01.029Z",
+      "updatedAt": "2026-09-16T11:10:03.430Z",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Check room availability",
+          "at": "2026-09-16T11:09:01.654Z"
+        },
+        {
+          "role": "assistant",
+          "content": "Sure! Could you let me know the check‑in and check‑out dates you’re interested in, as well as how many guests will be staying?",
+          "at": "2026-09-16T11:09:01.654Z"
+        },
+        {
+          "role": "user",
+          "content": "Check availability 20 September 2026 to 22 September 2026 for 3 guests",
+          "at": "2026-09-16T11:10:03.428Z"
+        },
+        {
+          "role": "assistant",
+          "content": "I’ve checked the dates 20 Sep – 22 Sep 2026 for 3 guests and found two rooms that can accommodate you:\n\n- **Family Room** – fits up to 4 guests, breakfast included, ₹8,500 per night (₹17,000 total for 2 nights).  \n- **Executive Suite** – fits up to 3 guests, breakfast included, ₹14,500 per night (₹29,000 total for 2 nights).\n\nLet me know which one you’d like to hold, or if you’d like more details!",
+          "at": "2026-09-16T11:10:03.429Z"
+        }
+      ],
+      "stay": {
+        "checkIn": "2026-09-20",
+        "checkOut": "2026-09-22",
+        "guests": 3,
+        "maxBudget": null,
+        "selectedRoomId": null
+      },
+      "guest": {
+        "name": null,
+        "email": null,
+        "phone": null
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": null,
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": "2026-09-16T11:10:03.428Z",
+      "staffLastReadAt": null
+    },
+    "205c9455-3771-41d4-b438-87c992a41242": {
+      "id": "205c9455-3771-41d4-b438-87c992a41242",
+      "createdAt": "2026-09-16T11:32:20.690Z",
+      "updatedAt": "2026-09-16T11:41:35.411Z",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Please book the Family Room from 20 September 2026 to 22 September 2026 for 3 guests. Guest name is Priya Sharma. Phone +91 98765 43210. Email priya@example.com",
+          "at": "2026-09-16T11:32:24.327Z"
+        },
+        {
+          "role": "assistant",
+          "content": "I’ve sent the Family Room request to the front desk for 20 Sept 2026 – 22 Sept 2026 for 3 guests. They’ll call you at +91 98765 43210 to confirm the hold. This isn’t a confirmed booking until the desk gets back to you. If you need anything else, just let me know!",
+          "at": "2026-09-16T11:32:24.328Z"
+        },
+        {
+          "role": "assistant",
+          "content": "The front desk confirmed your stay under AST-7D4E for the Family Room (2026-09-20 to 2026-09-22). Estimated total ₹17,000. This is a demo booking, not a live PMS reservation.",
+          "at": "2026-09-16T11:41:35.409Z"
+        }
+      ],
+      "stay": {
+        "checkIn": "2026-09-20",
+        "checkOut": "2026-09-22",
+        "guests": 3,
+        "maxBudget": null,
+        "selectedRoomId": "family-room"
+      },
+      "guest": {
+        "name": "Priya Sharma",
+        "email": "priya@example.com",
+        "phone": "+91 98765 43210"
+      },
+      "pendingHold": null,
+      "pendingChange": null,
+      "lastConfirmationCode": "AST-7D4E",
+      "mode": "ai",
+      "assignedTo": null,
+      "takenOverAt": null,
+      "lastGuestMessageAt": "2026-09-16T11:32:24.327Z",
+      "staffLastReadAt": null
+    }
+  }
+}

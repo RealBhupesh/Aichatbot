@@ -1,0 +1,145 @@
+{
+  "hotel": {
+    "name": "Asteria Grand Hotel",
+    "tagline": "Calm luxury on the Calangute coast",
+    "description": "Asteria Grand Hotel is a boutique beachfront stay in Calangute, Goa. The property is designed for unhurried mornings, quiet evenings, and staff who actually remember your name.",
+    "address": "14 Baga Road, Calangute, Goa 403516, India",
+    "location": "Calangute, North Goa, a short walk from the beach",
+    "phone": "+91 832 555 0142",
+    "email": "stay@asteriagrand.example",
+    "checkIn": "3:00 PM",
+    "checkOut": "11:00 AM",
+    "frontDesk": "24 hours",
+    "currency": "INR",
+    "rating": 4.91,
+    "reviewCount": 312,
+    "image": "/hotel/reception-desk.png"
+  },
+  "amenities": [
+    {
+      "id": "pool",
+      "name": "Swimming pool",
+      "available": true,
+      "details": "Outdoor lagoon pool, open 7:00 AM–8:00 PM. Towels are provided at the pool deck.",
+      "image": "/hotel/pool.png"
+    },
+    {
+      "id": "wifi",
+      "name": "Wi-Fi",
+      "available": true,
+      "details": "Complimentary high-speed Wi-Fi throughout the hotel, including all rooms and public areas."
+    },
+    {
+      "id": "parking",
+      "name": "Parking",
+      "available": true,
+      "details": "Complimentary on-site parking for hotel guests, subject to availability."
+    },
+    {
+      "id": "fitness",
+      "name": "Fitness center",
+      "available": true,
+      "details": "24-hour fitness studio with cardio equipment and free weights."
+    },
+    {
+      "id": "breakfast",
+      "name": "Breakfast",
+      "available": true,
+      "details": "Breakfast is served daily from 7:00 AM to 10:30 AM in the Garden Room. It is included with Deluxe King, Family Room, and Executive Suite stays. Standard Queen guests may add breakfast for ₹950 per adult per morning.",
+      "image": "/hotel/breakfast.png"
+    },
+    {
+      "id": "restaurant",
+      "name": "Restaurant",
+      "available": true,
+      "details": "The Garden Room serves coastal Indian and Mediterranean dishes for breakfast, lunch, and dinner. In-room dining is available from 7:00 AM to 11:00 PM.",
+      "image": "/hotel/breakfast.png"
+    },
+    {
+      "id": "airport-transfer",
+      "name": "Airport transfer",
+      "available": true,
+      "details": "Paid airport transfers can be arranged to and from Goa International Airport (GOI). Please request at least 12 hours in advance through the front desk or stay@asteriagrand.example."
+    }
+  ],
+  "policies": {
+    "cancellation": "Free cancellation up to 24 hours before 3:00 PM on the check-in date. Cancellations made after that, or no-shows, are charged for the first night.",
+    "pets": "Pets are not permitted, with the exception of trained service animals.",
+    "smoking": "Asteria Grand is a non-smoking hotel. Smoking is permitted only in the designated outdoor courtyard.",
+    "children": "Children of all ages are welcome. Guests 12 and under stay free when sharing existing bedding with adults. A crib can be requested subject to availability.",
+    "extraBed": "A rollaway bed can be added to the Executive Suite only, for ₹1,500 per night, and does not increase the published maximum occupancy.",
+    "earlyCheckIn": "Early check-in and late check-out are subject to availability and may carry a fee. Please contact the front desk to request either."
+  },
+  "rooms": [
+    {
+      "id": "standard-queen",
+      "name": "Standard Queen",
+      "description": "A bright, compact room with a garden-facing window, a queen bed, and everything needed for a short coastal stay.",
+      "maxGuests": 2,
+      "beds": "1 Queen",
+      "sizeSqFt": 280,
+      "pricePerNight": 6500,
+      "breakfastIncluded": false,
+      "inventory": 12,
+      "image": "/hotel/room-standard-queen.png",
+      "amenities": ["Free Wi-Fi", "Air conditioning", "Work desk", "Rain shower"]
+    },
+    {
+      "id": "deluxe-king",
+      "name": "Deluxe King",
+      "description": "A quieter king room with a sitting nook, rainfall shower, and breakfast included each morning.",
+      "maxGuests": 2,
+      "beds": "1 King",
+      "sizeSqFt": 360,
+      "pricePerNight": 8200,
+      "breakfastIncluded": true,
+      "inventory": 8,
+      "image": "/hotel/room-deluxe-king.png",
+      "amenities": ["Free Wi-Fi", "Air conditioning", "Breakfast included", "Sitting nook", "Rain shower"]
+    },
+    {
+      "id": "family-room",
+      "name": "Family Room",
+      "description": "Our most requested room for small families and friends travelling together, with a king bed plus a sofa bed.",
+      "maxGuests": 4,
+      "beds": "1 King + Sofa Bed",
+      "sizeSqFt": 480,
+      "pricePerNight": 8500,
+      "breakfastIncluded": true,
+      "inventory": 6,
+      "image": "/hotel/room-family.png",
+      "amenities": ["Free Wi-Fi", "Air conditioning", "Breakfast included", "Sofa bed", "Blackout curtains"]
+    },
+    {
+      "id": "executive-suite",
+      "name": "Executive Suite",
+      "description": "A separate living room, king bedroom, and daybed, with a partial sea view and breakfast included.",
+      "maxGuests": 3,
+      "beds": "1 King + Daybed",
+      "sizeSqFt": 620,
+      "pricePerNight": 14500,
+      "breakfastIncluded": true,
+      "inventory": 3,
+      "image": "/hotel/room-executive-suite.png",
+      "amenities": ["Free Wi-Fi", "Air conditioning", "Breakfast included", "Living room", "Partial sea view"]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What time is check-in and check-out?",
+      "answer": "Check-in begins at 3:00 PM and check-out is at 11:00 AM."
+    },
+    {
+      "question": "Is breakfast included?",
+      "answer": "Breakfast is included with Deluxe King, Family Room, and Executive Suite. Standard Queen guests can add it for ₹950 per adult per morning."
+    },
+    {
+      "question": "Do you have a swimming pool?",
+      "answer": "Yes. The outdoor lagoon pool is open from 7:00 AM to 8:00 PM."
+    },
+    {
+      "question": "Can I cancel for free?",
+      "answer": "Yes, if you cancel at least 24 hours before 3:00 PM on the check-in date."
+    }
+  ]
+}
