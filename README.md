@@ -1,167 +1,182 @@
-# AI-Powered Hotel Guest Assistant
+# Asteria Grand Hotel — AI Guest Assistant
 
-A small, production-minded guest assistant for the fictional **Asteria Grand Hotel**. Guests can ask about rooms, amenities, and policies, then check a deterministic mock of room availability. The browser never calls the LLM. Hotel facts and inventory stay in backend code.
+A production-minded hotel guest assistant for the fictional **Asteria Grand Hotel**. Guests browse an Airbnb-style listing, chat with Leela at the front desk, check real availability, and request bookings. Staff operate a front-desk console to confirm reservations, take over live chats, and manage inventory.
 
-This repository is sized as a 6–8 hour hiring assignment: one Next.js app, one chat API, one JSON knowledge base, and a mock availability function.
+**Repository:** [github.com/RealBhupesh/Aichatbot](https://github.com/RealBhupesh/Aichatbot)  
+**Deployed on:** Vercel (import the GitHub repo to deploy)
 
-## Demo
+---
 
-Not deployed from this workspace yet. After you deploy to Vercel, replace this line with the production URL.
+## What it does
 
-## Features
+### For guests
 
-- An Airbnb-style listing homepage with a real reception-desk photo grid; Talk opens the host conversation
-- Assistant replies include hotel photographs, not text-only bubbles
-- Follow-up questions that resolve room references from recent history
-- Safe fallback when a service is not in the hotel dataset
-- Natural-language availability requests plus a structured date/guest form
-- Deterministic `checkAvailability()` with capacity, date, and staff-controlled inventory
-- A staff dashboard at `/staff` for inventory, rates, closures, and blackout dates
-- Room result cards with nightly and stay totals in INR
-- Loading, retry, and validation states
-- Unit tests for hotel facts, availability, operations, and the chat API
-- Playwright coverage for a full guest flow and staff sign-in
+- Airbnb-style listing with a reception photo mosaic; **Talk** opens a host conversation with Leela
+- Natural-language questions about rooms, amenities, and policies — with hotel photographs in replies
+- Follow-up questions (“does it include breakfast?”) without repeating the room name
+- Structured date/guest form when exact stay details are needed
+- Deterministic room availability with capacity, pricing, and staff-controlled inventory
+- **Book the room** flow: guest submits a request with phone → staff confirms → guest receives `AST-xxxx` in chat
+- Live streaming replies with tool-status updates when an LLM is configured
+- Staff takeover: human front-desk messages appear in the guest thread via polling
 
-## Tech Stack
+### For staff (`/staff`)
 
-- Next.js 16 App Router, React 19, TypeScript
-- Tailwind CSS 4
-- Zod request/response validation
-- Vercel AI SDK with Groq (`@ai-sdk/groq`, default model `openai/gpt-oss-120b`)
-- Vitest for unit tests
-- Playwright for end-to-end tests
+- Password-protected dashboard with four tabs: **Overview**, **Conversations**, **Escalations**, **Operations**
+- Confirm or decline booking requests (with guest phone link)
+- Take over a guest chat, reply as the desk, hand back to Leela
+- Adjust inventory, nightly rates, room closures, and blackout dates
+- Optional webhook alerts for escalations and booking requests
 
-## Architecture
+---
+
+## Tech stack
+
+| Layer | Choice |
+| --- | --- |
+| Framework | Next.js 16 App Router, React 19, TypeScript |
+| Styling | Tailwind CSS 4, DaisyUI 5 |
+| Validation | Zod |
+| AI | Vercel AI SDK v7 + Groq (`@ai-sdk/groq`, default `openai/gpt-oss-120b`) |
+| Unit tests | Vitest (75 tests) |
+| E2E tests | Playwright |
+
+The browser **never** calls the LLM. All model traffic goes through server routes.
+
+---
+
+## Architecture at a glance
 
 ```mermaid
 flowchart TD
-  Guest[Guest] --> UI[Listing + Talk]
-  Staff[Hotel staff] --> Desk[Staff dashboard]
-  Desk --> Ops["data/operations.json"]
-  UI --> API["POST /api/chat"]
-  API --> Validate[Zod validation]
-  Validate --> NLU[Groq or rule-based interpreter]
-  NLU --> Facts[Hotel JSON facts]
-  NLU --> Avail[checkAvailability]
+  Guest[Guest] --> UI[Listing + ChatWindow]
+  Staff[Staff] --> Desk[Staff dashboard]
+  UI --> Stream["/api/chat/stream"]
+  UI --> Chat["/api/chat"]
+  UI --> Poll["/api/chat/poll"]
+  Desk --> StaffAPI["/api/staff/*"]
+  Stream --> Agent[Agent + tools]
+  Chat --> Router[Intent router / actions]
+  Agent --> Facts[hotel.json answers]
+  Agent --> Avail[checkAvailability]
+  Router --> Facts
+  Router --> Avail
+  Desk --> Ops[operations.json]
+  Desk --> Bookings[bookings.json]
+  Agent --> Sessions[sessions.json]
+  StaffAPI --> Sessions
   Ops --> Avail
-  Facts --> Response[Structured JSON + images]
-  Avail --> Response
-  Response --> UI
+  Facts --> UI
+  Avail --> UI
 ```
 
-AI is used to understand the guest and, when an API key is present, extract intent and slots. Backend logic validates dates, guest counts, room capacity, prices, policies, and inventory. See [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md).
+**Core principle:** AI understands language; backend code owns inventory, prices, policies, and booking state.
 
-## Getting Started
+For the full decision log, module map, API reference, and deployment notes, see **[docs/ARCHITECTURE.md](docs/ARCHITECTURE.md)**.
+
+---
+
+## Major architectural choices
+
+| Area | Decision |
+| --- | --- |
+| **Deployment shape** | Single Next.js app — guest UI, staff UI, and APIs in one repo |
+| **AI boundary** | Model handles NLU and tool orchestration; `checkAvailability()` and `lib/answers.ts` own facts |
+| **Default AI mode** | Agent with tools (`AGENT_MODE=true`) — up to 5 tool steps per turn |
+| **Guest transport** | SSE streaming (`/api/chat/stream`) with JSON fallback for forms and actions |
+| **Sessions** | Server-side JSON store + `asteria_guest` cookie |
+| **Bookings** | Staff-confirmed flow (`pending_staff` → confirm → `AST-xxxx`) — not instant guest confirmation |
+| **Staff takeover** | Session `mode` switches `ai` ↔ `staff`; guest UI polls for desk messages |
+| **Persistence** | File-backed JSON locally; `/tmp/asteria-data` on Vercel (`lib/data-files.ts`) |
+| **No-LLM fallback** | Rule-based interpreter in `lib/interpreter.ts` for dev and CI |
+| **Auth** | Staff password + HMAC session cookie; guarded by `proxy.ts` |
+
+Product rationale and hallucination controls: **[docs/PRODUCT_DECISIONS.md](docs/PRODUCT_DECISIONS.md)**
+
+---
+
+## Getting started
 
 ```bash
-git clone <this-repo>
-cd hotel-guest-assistant
+git clone https://github.com/RealBhupesh/Aichatbot.git
+cd Aichatbot
 npm install
-```
-
-Copy environment variables:
-
-```bash
 cp .env.example .env.local
 ```
 
-Set Groq for live language understanding:
+Add your Groq key to `.env.local`:
 
-```
-GROQ_API_KEY=
+```env
+GROQ_API_KEY=your_key_here
 GROQ_MODEL=openai/gpt-oss-120b
-```
-
-If no LLM key is set, the app still runs. Intent detection falls back to a deterministic interpreter so local development and tests do not depend on a live model.
-
-Staff dashboard (local default password `asteria-desk`):
-
-```
 STAFF_PASSWORD=asteria-desk
 ```
-
-Then:
 
 ```bash
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000).
+Open [http://localhost:3000](http://localhost:3000) for the guest site.  
+Staff desk: [http://localhost:3000/staff](http://localhost:3000/staff) (default password `asteria-desk`).
 
-## Environment Variables
+If no LLM key is set, the app still runs using the rule-based interpreter.
+
+---
+
+## Environment variables
 
 | Name | Required | Purpose |
 | --- | --- | --- |
-| `GROQ_API_KEY` | No | Groq API key for live intent extraction. Server-only. |
-| `GROQ_MODEL` | No | Groq model id. Defaults to `openai/gpt-oss-120b`. |
-| `AI_GATEWAY_API_KEY` | No | Fallback if Groq is unset. |
-| `LLM_API_KEY` | No | Alias used when Groq and the Gateway key are empty. |
-| `LLM_MODEL` | No | Gateway model id. Defaults to `openai/gpt-5.4-mini`. |
-| `STAFF_PASSWORD` | No | Staff dashboard password. Defaults to `asteria-desk` in development. |
-| `STAFF_SECRET` | No | HMAC secret for the staff session cookie. |
+| `GROQ_API_KEY` | For live AI | Groq API key. Server-only. |
+| `GROQ_MODEL` | No | Defaults to `openai/gpt-oss-120b` |
+| `AGENT_MODE` | No | `true` (default) = tool-calling agent; `false` = legacy intent router |
+| `STREAM_MODE` | No | `true` (default) = SSE streaming for agent replies |
+| `AI_GATEWAY_API_KEY` | No | Fallback provider via Vercel AI Gateway |
+| `LLM_API_KEY` | No | Alias when Groq and Gateway are empty |
+| `LLM_MODEL` | No | Gateway model. Defaults to `openai/gpt-5.4-mini` |
+| `STAFF_PASSWORD` | Yes on Vercel | Staff dashboard login |
+| `STAFF_SECRET` | Recommended | HMAC secret for staff session cookies and hold tokens |
+| `STAFF_ALERT_WEBHOOK` | No | Slack/Discord/Zapier webhook for staff alerts |
+| `DATA_DIR` | No | Override writable data directory (default: `data/` locally, `/tmp/asteria-data` on Vercel) |
 
-Never put these values in client code or commit `.env.local`.
+Never commit `.env` or expose keys in client code.
 
-## API
+---
 
-`POST /api/chat`
+## API overview
 
-Request:
+### Guest chat
 
-```json
-{
-  "message": "What time is check-in?",
-  "history": [],
-  "availability": {
-    "checkIn": null,
-    "checkOut": null,
-    "guests": null
-  },
-  "source": "chat"
-}
-```
+**`POST /api/chat`** — JSON response (forms, actions, no-LLM mode)
 
-`source` may be `"chat"` or `"availability_form"`. History is capped at 12 messages.
+**`POST /api/chat/stream`** — SSE stream (default for free-text chat)
+
+**`GET /api/chat/poll`** — Sync staff messages during takeover
+
+**`POST /api/chat/new`** — Start a fresh guest session
 
 Example:
 
 ```bash
 curl -X POST http://localhost:3000/api/chat \
   -H "Content-Type: application/json" \
-  -d '{
-    "message": "What time is check-in?",
-    "history": []
-  }'
+  -d '{"message":"What time is check-in?","history":[],"source":"chat"}'
 ```
 
-Availability example:
-
-```bash
-curl -X POST http://localhost:3000/api/chat \
-  -H "Content-Type: application/json" \
-  -d '{
-    "message": "Please check availability for these dates.",
-    "history": [],
-    "source": "availability_form",
-    "availability": {
-      "checkIn": "2026-09-20",
-      "checkOut": "2026-09-22",
-      "guests": 3
-    }
-  }'
-```
-
-Successful responses always include `type`, `message`, `intent`, `missingFields`, `rooms`, and `images`.
-
-Open [http://localhost:3000/staff](http://localhost:3000/staff) to set inventory, nightly rates, closed rooms, and blackout dates. Those values are stored in `data/operations.json` and are what `checkAvailability()` reads.
+### Response types
 
 | `type` | Meaning |
 | --- | --- |
 | `answer` | Grounded hotel/room/amenity/policy reply |
 | `availability_request` | Dates or guest count still needed |
 | `availability_results` | Deterministic inventory result |
-| `fallback` | Question is outside the hotel dataset |
+| `booking_requested` | Request sent to staff for confirmation |
+| `fallback` | Question outside the hotel dataset |
 | `error` | Validation, model, or availability failure |
+
+Full route list: [docs/ARCHITECTURE.md §9](docs/ARCHITECTURE.md#9-api-surface)
+
+---
 
 ## Testing
 
@@ -171,51 +186,65 @@ npx playwright install chromium
 npx playwright test
 ```
 
-Playwright starts the Next.js dev server and forces the rule-based interpreter so the flow does not depend on a live LLM.
+Playwright forces the rule-based interpreter so E2E does not depend on a live model.
+
+Automated evaluation results: [docs/EVALUATION.md](docs/EVALUATION.md)
+
+---
+
+## Deploy on Vercel
+
+1. Import [RealBhupesh/Aichatbot](https://github.com/RealBhupesh/Aichatbot) in Vercel
+2. Framework auto-detects as **Next.js**
+3. Set environment variables for **Production and Preview**:
+   - `GROQ_API_KEY`
+   - `STAFF_PASSWORD`
+   - `STAFF_SECRET` (recommended)
+4. Deploy
+
+Writable data (sessions, bookings, operations) is stored in `/tmp/asteria-data` on Vercel. This works for demos but is **not durable across instances** — migrate to Postgres, Redis, or Blob for production.
+
+---
 
 ## AI vs deterministic logic
 
 | AI / interpreter | Backend |
 | --- | --- |
 | Natural-language understanding | Date validity |
-| Follow-up reference resolution | Guest count limits |
+| Follow-up reference resolution | Guest count limits (1–8) |
 | Slot extraction for dates/guests | Room capacity |
-| Conversational phrasing when a model is configured | Prices, policies, amenities |
-| | Mock inventory and availability |
+| Tool orchestration (agent mode) | Prices, policies, amenities |
+| Conversational phrasing | Inventory and availability |
+| Escalation decisions | Booking confirmation codes |
 
 The model is never asked whether a room is free.
 
+---
+
 ## Failure handling
 
-- Network errors show “Something went wrong while contacting the assistant.” with Retry
-- LLM failures show “I'm having trouble generating a response right now. Please try again.”
-- Availability failures show “I couldn't check room availability right now. Please try again shortly.”
-- Invalid dates and guest counts return a specific validation message
-- Unknown services return a useful fallback, not a fabricated “no”
+| Failure | Guest sees |
+| --- | --- |
+| Network / API crash | “Something went wrong while contacting the assistant.” + Retry |
+| LLM error | “I'm having trouble generating a response right now. Please try again.” |
+| Availability error | “I couldn't check room availability right now. Please try again shortly.” |
+| Invalid dates / guests | Specific validation message |
+| Unknown service | Useful fallback pointing to the front desk |
 
-Raw stack traces and API keys are never sent to the browser.
+Stack traces and API keys are never sent to the browser.
 
-## Evaluation
+---
 
-Observed results from the automated suite live in [docs/EVALUATION.md](docs/EVALUATION.md).
+## Documentation
 
-## Product decisions
+| Document | Contents |
+| --- | --- |
+| [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) | Full architecture, design choices, module map, deployment |
+| [docs/PRODUCT_DECISIONS.md](docs/PRODUCT_DECISIONS.md) | Product rationale, AI boundaries, production gaps |
+| [docs/EVALUATION.md](docs/EVALUATION.md) | Automated test evaluation matrix |
 
-Design, AI boundaries, and production gaps are documented in [docs/PRODUCT_DECISIONS.md](docs/PRODUCT_DECISIONS.md).
+---
 
-## AI tools used during development
+## Development notes
 
-- **Cursor**, with the Grok 4.6 assistant in this workspace
-- Used for scaffolding, implementation, test generation, code review, and documentation
-- Vercel AI SDK / AI Gateway patterns were followed for the live model path
-
-All generated code and technical decisions were reviewed and understood before submission.
-
-## Deploy on Vercel
-
-1. Push this repository to GitHub
-2. Import the project in Vercel
-3. Set `GROQ_API_KEY` (and optional `GROQ_MODEL`) plus `STAFF_PASSWORD` for Production and Preview
-4. Deploy
-
-Hotel content ships as JSON. Staff inventory is stored in `data/operations.json` on the server filesystem, so a durable store is the next production step.
+Built with **Cursor** and the Vercel AI SDK. All architectural decisions are documented in `docs/` and were reviewed during implementation.

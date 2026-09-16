@@ -5,7 +5,7 @@ Results below come from the automated suite in this repository. A row is marked 
 Commands run on 16 Sep 2026:
 
 ```bash
-npm test          # 4 files, 26 passed
+npm test          # 18 files, 75 passed
 npx playwright test  # 2 passed
 ```
 
@@ -33,6 +33,6 @@ Quality gates:
 | --- | --- |
 | `npm run lint` | Pass |
 | `npm run typecheck` | Pass |
-| `npm test` | Pass (26) |
+| `npm test` | Pass (75) |
 | `npm run build` | Pass |
 | `npx playwright test` | Pass (2) |

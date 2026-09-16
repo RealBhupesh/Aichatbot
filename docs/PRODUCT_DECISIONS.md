@@ -12,9 +12,10 @@ Hotel guests need fast, trustworthy answers while they are choosing a stay or al
 4. Ask a follow-up (“does it include breakfast?”) without repeating the room name.
 5. If they want dates, provide check-in, check-out, and guest count in the conversation or in the form.
 6. Inspect available rooms, photos, capacity, breakfast, and estimated totals.
-7. Contact the hotel to actually book — this product does not pretend to take payment.
+7. Tap **Book the room**, provide a phone number, and wait for the front desk to confirm.
+8. Receive an `AST-xxxx` confirmation code in chat only after staff approves the request.
 
-Staff sign in at `/staff`, then set inventory, rates, and closed dates so the guest assistant stays in sync.
+Staff sign in at `/staff`, confirm or decline booking requests, take over live chats, and set inventory, rates, and closed dates so the guest assistant stays in sync.
 
 ## Why was the frontend designed this way?
 
@@ -24,10 +25,13 @@ Dates and occupancy still use a form, because a wrong date is a business error, 
 
 ## Which parts use AI?
 
-- Intent understanding
+- Intent understanding and tool orchestration (agent mode, default)
 - Follow-up / reference resolution (“that one”, “does it include breakfast?”)
 - Extracting stay parameters from prose when the guest volunteers them
 - Optional natural-language phrasing when a live model is configured
+- Deciding when to escalate to staff (via the `escalateToStaff` tool)
+
+Booking **confirmation** is never AI-driven — staff must explicitly confirm or decline.
 
 ## Which parts remain deterministic?
 
