@@ -1,6 +1,5 @@
 import { randomUUID } from "node:crypto";
-import { existsSync, readFileSync, writeFileSync } from "node:fs";
-import path from "node:path";
+import { readJsonFile, resolveDataFile, writeJsonFile } from "@/lib/data-files";
 
 export type EscalationStatus = "open" | "resolved";
 
@@ -21,7 +20,7 @@ type EscalationStore = {
   tickets: EscalationTicket[];
 };
 
-const FILE = path.join(process.cwd(), "data/escalations.json");
+const FILE = resolveDataFile("escalations.json");
 
 let cache: EscalationStore | null = null;
 
@@ -38,19 +37,14 @@ export function readEscalationStore(): EscalationStore {
     return cache;
   }
 
-  if (!existsSync(FILE)) {
-    cache = { tickets: [] };
-    return cache;
-  }
-
-  cache = JSON.parse(readFileSync(FILE, "utf8")) as EscalationStore;
+  cache = readJsonFile(FILE, { tickets: [] } as EscalationStore);
   cache.tickets ??= [];
   return cache;
 }
 
 function writeEscalationStore(store: EscalationStore) {
   cache = store;
-  writeFileSync(FILE, `${JSON.stringify(store, null, 2)}\n`, "utf8");
+  writeJsonFile(FILE, store);
 }
 
 export type CreateEscalationInput = {

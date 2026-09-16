@@ -1,6 +1,5 @@
 import { randomUUID } from "node:crypto";
-import { existsSync, readFileSync, writeFileSync } from "node:fs";
-import path from "node:path";
+import { readJsonFile, resolveDataFile, writeJsonFile } from "@/lib/data-files";
 import type { PendingChange, PendingHold } from "@/lib/bookings";
 import { listEscalations } from "@/lib/escalations";
 
@@ -70,7 +69,7 @@ type SessionStore = {
   sessions: Record<string, GuestSession>;
 };
 
-const FILE = path.join(process.cwd(), "data/sessions.json");
+const FILE = resolveDataFile("sessions.json");
 const MAX_MESSAGES = 500;
 const LLM_HISTORY_LIMIT = 12;
 
@@ -154,21 +153,7 @@ export function readSessionStore(): SessionStore {
     return cache;
   }
 
-  if (!existsSync(FILE)) {
-    cache = { sessions: {} };
-    return cache;
-  }
-
-  try {
-    const raw = readFileSync(FILE, "utf8").trim();
-    if (!raw) {
-      cache = { sessions: {} };
-      return cache;
-    }
-    cache = JSON.parse(raw) as SessionStore;
-  } catch {
-    cache = { sessions: {} };
-  }
+  cache = readJsonFile(FILE, { sessions: {} } as SessionStore);
   cache.sessions ??= {};
   for (const [id, session] of Object.entries(cache.sessions)) {
     cache.sessions[id] = normalizeSession({ ...session, id: session?.id ?? id });
@@ -178,7 +163,7 @@ export function readSessionStore(): SessionStore {
 
 function writeSessionStore(store: SessionStore) {
   cache = store;
-  writeFileSync(FILE, `${JSON.stringify(store, null, 2)}\n`, "utf8");
+  writeJsonFile(FILE, store);
 }
 
 export function readSession(sessionId: string) {

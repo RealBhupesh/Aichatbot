@@ -1,6 +1,5 @@
 import { createHmac, randomBytes, timingSafeEqual } from "node:crypto";
-import { existsSync, readFileSync, writeFileSync } from "node:fs";
-import path from "node:path";
+import { readJsonFile, resolveDataFile, writeJsonFile } from "@/lib/data-files";
 import { searchAvailability } from "@/lib/availability-search";
 import { getRoomById } from "@/lib/hotel";
 import { logger } from "@/lib/logger";
@@ -61,7 +60,7 @@ type BookingStore = {
   holds: BookingHold[];
 };
 
-const FILE = path.join(process.cwd(), "data/bookings.json");
+const FILE = resolveDataFile("bookings.json");
 const HOLD_TTL_MS = 30 * 60 * 1000;
 const STAFF_REQUEST_TTL_MS = 24 * 60 * 60 * 1000;
 
@@ -101,19 +100,14 @@ export function readBookingStore(): BookingStore {
     return cache;
   }
 
-  if (!existsSync(FILE)) {
-    cache = { holds: [] };
-    return cache;
-  }
-
-  cache = JSON.parse(readFileSync(FILE, "utf8")) as BookingStore;
+  cache = readJsonFile(FILE, { holds: [] } as BookingStore);
   cache.holds ??= [];
   return cache;
 }
 
 function writeBookingStore(store: BookingStore) {
   cache = store;
-  writeFileSync(FILE, `${JSON.stringify(store, null, 2)}\n`, "utf8");
+  writeJsonFile(FILE, store);
 }
 
 function findRoomOffer(

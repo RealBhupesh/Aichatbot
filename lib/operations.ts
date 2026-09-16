@@ -1,5 +1,5 @@
-import { existsSync, readFileSync, writeFileSync } from "node:fs";
-import path from "node:path";
+import { existsSync } from "node:fs";
+import { readJsonFile, resolveDataFile, writeJsonFile } from "@/lib/data-files";
 import { getRooms, type HotelRoom } from "@/lib/hotel";
 
 export type RoomOperations = {
@@ -14,7 +14,7 @@ export type HotelOperations = {
   rooms: Record<string, RoomOperations>;
 };
 
-const FILE = path.join(process.cwd(), "data/operations.json");
+const FILE = resolveDataFile("operations.json");
 
 let cache: HotelOperations | null = null;
 
@@ -59,7 +59,7 @@ export function readOperations(): HotelOperations {
     return cache;
   }
 
-  const parsed = JSON.parse(readFileSync(FILE, "utf8")) as HotelOperations;
+  const parsed = readJsonFile(FILE, seedFromHotel());
   cache = {
     hotelClosedDates: parsed.hotelClosedDates ?? [],
     rooms: parsed.rooms ?? {},
@@ -69,7 +69,7 @@ export function readOperations(): HotelOperations {
 
 export function writeOperations(next: HotelOperations) {
   cache = next;
-  writeFileSync(FILE, `${JSON.stringify(next, null, 2)}\n`, "utf8");
+  writeJsonFile(FILE, next);
 }
 
 export function getRoomOperations(roomId: string): RoomOperations {
