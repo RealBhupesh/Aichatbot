@@ -92,7 +92,7 @@ export function ConversationDetail({ sessionId }: Props) {
 
   if (!payload) {
     return (
-      <div className="flex min-h-[28rem] items-center justify-center rounded-2xl bg-white p-6 text-[14px] text-[var(--color-muted)] ring-1 ring-[var(--color-hairline)]">
+      <div className="flex h-full min-h-0 items-center justify-center rounded-2xl bg-white p-6 text-[14px] text-[var(--color-muted)] ring-1 ring-[var(--color-hairline)]">
         Loading conversation…
       </div>
     );
@@ -102,9 +102,9 @@ export function ConversationDetail({ sessionId }: Props) {
   const live = session.mode === "staff";
 
   return (
-    <div className="grid min-h-[28rem] overflow-hidden rounded-2xl bg-white ring-1 ring-[var(--color-hairline)] lg:grid-cols-[1fr_240px]">
-      <div className="flex min-h-[28rem] flex-col">
-        <div className="flex flex-wrap items-start justify-between gap-3 border-b border-[var(--color-hairline)] p-4">
+    <div className="grid h-full min-h-0 overflow-hidden rounded-2xl bg-white ring-1 ring-[var(--color-hairline)] lg:grid-cols-[1fr_220px]">
+      <div className="flex min-h-0 flex-col">
+        <div className="flex shrink-0 flex-wrap items-start justify-between gap-3 border-b border-[var(--color-hairline)] px-4 py-3">
           <div>
             <p className="text-[16px] font-semibold text-[var(--color-ink)]">
               {session.guest.name || "Guest"}
@@ -160,7 +160,7 @@ export function ConversationDetail({ sessionId }: Props) {
         {message ? <p className="px-4 text-[13px] text-[var(--color-error)]">{message}</p> : null}
 
         <form
-          className="border-t border-[var(--color-hairline)] p-3"
+          className="shrink-0 border-t border-[var(--color-hairline)] p-3"
           onSubmit={(event) => {
             event.preventDefault();
             const content = draft.trim();
@@ -175,18 +175,18 @@ export function ConversationDetail({ sessionId }: Props) {
             value={draft}
             onChange={(event) => setDraft(event.target.value)}
             placeholder={live ? "Reply as the front desk" : "Take over to reply as the front desk"}
-            rows={3}
+            rows={2}
             className="w-full resize-none rounded-xl px-3 py-2 text-[14px] ring-1 ring-[var(--color-hairline)] outline-none focus:ring-2 focus:ring-[var(--color-ink)]"
           />
           <div className="mt-2 flex justify-end">
-            <Button type="submit" disabled={busy || !draft.trim()} className="h-10 px-4 text-[13px]">
+            <Button type="submit" disabled={busy || !draft.trim()} className="h-9 px-4 text-[13px]">
               {busy ? "Sending…" : "Send"}
             </Button>
           </div>
         </form>
       </div>
 
-      <aside className="space-y-4 border-t border-[var(--color-hairline)] p-4 lg:border-t-0 lg:border-l">
+      <aside className="min-h-0 space-y-4 overflow-y-auto border-t border-[var(--color-hairline)] p-4 lg:border-t-0 lg:border-l">
         <section>
           <h3 className="text-[12px] font-semibold uppercase tracking-wide text-[var(--color-muted)]">
             Guest

@@ -52,14 +52,14 @@ export function StaffDashboard({
   }
 
   return (
-    <main className="mx-auto max-w-6xl px-6 py-8">
-      <header className="flex flex-wrap items-start justify-between gap-4">
+    <main className="mx-auto flex h-full max-w-6xl flex-col overflow-hidden px-6 py-5">
+      <header className="flex shrink-0 flex-wrap items-start justify-between gap-4">
         <div>
           <p className="text-[13px] font-semibold tracking-tight text-[var(--color-primary)]">asteria</p>
-          <h1 className="mt-2 text-[28px] font-semibold tracking-tight text-[var(--color-ink)]">
+          <h1 className="mt-1 text-[24px] font-semibold tracking-tight text-[var(--color-ink)]">
             Front desk
           </h1>
-          <p className="mt-1 max-w-xl text-[15px] text-[var(--color-muted)]">
+          <p className="mt-1 max-w-xl text-[14px] text-[var(--color-muted)]">
             Read guest chats, take over live conversations, and keep room inventory in sync with Leela.
           </p>
         </div>
@@ -85,7 +85,7 @@ export function StaffDashboard({
         </div>
       </header>
 
-      <nav className="mt-6 flex flex-wrap gap-2" aria-label="Staff desk sections">
+      <nav className="mt-4 flex shrink-0 flex-wrap gap-2" aria-label="Staff desk sections">
         {TABS.map((item) => (
           <button
             key={item.id}
@@ -102,7 +102,11 @@ export function StaffDashboard({
         ))}
       </nav>
 
-      <div className="mt-6">
+      <div
+        className={`mt-4 min-h-0 flex-1 ${
+          tab === "conversations" ? "overflow-hidden" : "overflow-y-auto"
+        }`}
+      >
         {tab === "overview" ? (
           <OverviewPanel
             sessions={initialSessions}
@@ -114,7 +118,7 @@ export function StaffDashboard({
         ) : null}
 
         {tab === "conversations" ? (
-          <div className="grid gap-4 lg:grid-cols-[320px_1fr]">
+          <div className="grid h-full min-h-0 gap-4 lg:grid-cols-[300px_1fr]">
             <ConversationList
               initialSessions={initialSessions}
               selectedId={selectedSessionId}
@@ -123,7 +127,7 @@ export function StaffDashboard({
             {selectedSessionId ? (
               <ConversationDetail key={selectedSessionId} sessionId={selectedSessionId} />
             ) : (
-              <div className="flex min-h-[28rem] items-center justify-center rounded-2xl bg-white p-6 text-[14px] text-[var(--color-muted)] ring-1 ring-[var(--color-hairline)]">
+              <div className="flex h-full min-h-0 items-center justify-center rounded-2xl bg-white p-6 text-[14px] text-[var(--color-muted)] ring-1 ring-[var(--color-hairline)]">
                 Select a conversation to read the full guest thread.
               </div>
             )}

@@ -1,3 +1,3 @@
 export default function StaffLayout({ children }: LayoutProps<"/staff">) {
-  return <div className="min-h-[100dvh] bg-[var(--color-surface-soft)]">{children}</div>;
+  return <div className="h-[100dvh] overflow-hidden bg-[var(--color-surface-soft)]">{children}</div>;
 }

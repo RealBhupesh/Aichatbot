@@ -85,7 +85,7 @@ export function ConversationList({ initialSessions, selectedId, onSelect }: Prop
   }, [filter, query]);
 
   return (
-    <div className="flex h-full min-h-[28rem] flex-col rounded-2xl bg-white ring-1 ring-[var(--color-hairline)]">
+    <div className="flex h-full min-h-0 flex-col overflow-hidden rounded-2xl bg-white ring-1 ring-[var(--color-hairline)]">
       <div className="border-b border-[var(--color-hairline)] p-4">
         <input
           value={query}
