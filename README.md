@@ -247,4 +247,4 @@ Stack traces and API keys are never sent to the browser.
 
 ## Development notes
 
-Built with **Cursor** and the Vercel AI SDK. All architectural decisions are documented in `docs/` and were reviewed during implementation.
+Architectural decisions are documented in `docs/` and were reviewed during implementation.
