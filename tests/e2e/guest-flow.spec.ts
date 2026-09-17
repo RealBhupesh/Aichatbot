@@ -20,8 +20,8 @@ test("guest can ask a question and check availability", async ({ page }) => {
 
   await expect(page.getByTestId("availability-form")).toBeVisible({ timeout: 15_000 });
 
-  await page.getByTestId("check-in").fill("2026-09-20");
-  await page.getByTestId("check-out").fill("2026-09-22");
+  await page.getByTestId("calendar-day-2026-09-20").click();
+  await page.getByTestId("calendar-day-2026-09-22").click();
   await page.getByTestId("guests").fill("3");
   await page.getByTestId("check-availability").click();
 

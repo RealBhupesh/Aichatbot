@@ -2,6 +2,7 @@
 
 import { useMemo, useState } from "react";
 import { ChatFormPanel } from "@/components/chat/ChatFormPanel";
+import { StayCalendarPicker } from "@/components/forms/StayCalendarPicker";
 
 export type StayValues = {
   checkIn: string;
@@ -42,14 +43,10 @@ function defaultStay(): StayValues {
   };
 }
 
-function fieldClass(missing: boolean) {
-  return `input input-bordered w-full bg-base-100 ${missing ? "input-error" : ""}`;
-}
-
 export function StaySearchForm({ initial, missingFields = [], loading, onSubmit }: Props) {
   const defaults = useMemo(() => defaultStay(), []);
-  const [checkIn, setCheckIn] = useState(initial?.checkIn || defaults.checkIn);
-  const [checkOut, setCheckOut] = useState(initial?.checkOut || defaults.checkOut);
+  const [checkIn, setCheckIn] = useState(initial?.checkIn || "");
+  const [checkOut, setCheckOut] = useState(initial?.checkOut || "");
   const [guests, setGuests] = useState(initial?.guests || defaults.guests);
   const [maxBudget, setMaxBudget] = useState(
     typeof initial?.maxBudget === "number" ? String(initial.maxBudget) : "",
@@ -63,7 +60,7 @@ export function StaySearchForm({ initial, missingFields = [], loading, onSubmit 
 
   function validate() {
     if (!checkIn || !checkOut) {
-      return "Please choose both dates.";
+      return "Please choose both check-in and check-out on the calendar.";
     }
     if (checkOut <= checkIn) {
       return "Check-out must be after check-in.";
@@ -79,8 +76,8 @@ export function StaySearchForm({ initial, missingFields = [], loading, onSubmit 
 
   return (
     <ChatFormPanel
-      title="Plan your stay"
-      description="Pick dates, arrival times, and guest count — or keep typing in the chat if you prefer."
+      title="Choose your stay dates"
+      description="Tap check-in, then check-out on the calendar. Add arrival times and guest count below."
       testId="availability-form"
     >
       <form
@@ -102,22 +99,18 @@ export function StaySearchForm({ initial, missingFields = [], loading, onSubmit 
           });
         }}
       >
+        <StayCalendarPicker
+          checkIn={checkIn}
+          checkOut={checkOut}
+          minDate={minDate}
+          onChange={(nextCheckIn, nextCheckOut) => {
+            setCheckIn(nextCheckIn);
+            setCheckOut(nextCheckOut);
+            setError(null);
+          }}
+        />
+
         <div className="grid gap-3 sm:grid-cols-2">
-          <div className="form-control">
-            <label className="label py-1" htmlFor="check-in">
-              <span className="label-text font-medium">Check-in date</span>
-              {needs.has("checkIn") ? <span className="badge badge-primary badge-xs">Needed</span> : null}
-            </label>
-            <input
-              id="check-in"
-              data-testid="check-in"
-              type="date"
-              min={minDate}
-              value={checkIn}
-              onChange={(event) => setCheckIn(event.target.value)}
-              className={fieldClass(needs.has("checkIn"))}
-            />
-          </div>
           <div className="form-control">
             <label className="label py-1" htmlFor="check-in-time">
               <span className="label-text font-medium">Arrival time</span>
@@ -129,24 +122,6 @@ export function StaySearchForm({ initial, missingFields = [], loading, onSubmit 
               value={checkInTime}
               onChange={(event) => setCheckInTime(event.target.value)}
               className="input input-bordered w-full bg-base-100"
-            />
-          </div>
-        </div>
-
-        <div className="grid gap-3 sm:grid-cols-2">
-          <div className="form-control">
-            <label className="label py-1" htmlFor="check-out">
-              <span className="label-text font-medium">Check-out date</span>
-              {needs.has("checkOut") ? <span className="badge badge-primary badge-xs">Needed</span> : null}
-            </label>
-            <input
-              id="check-out"
-              data-testid="check-out"
-              type="date"
-              min={checkIn || minDate}
-              value={checkOut}
-              onChange={(event) => setCheckOut(event.target.value)}
-              className={fieldClass(needs.has("checkOut"))}
             />
           </div>
           <div className="form-control">

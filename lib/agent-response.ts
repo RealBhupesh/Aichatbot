@@ -1,7 +1,9 @@
 import {
   availabilitySearchToChatResponse,
+  missingStayFields,
   type AvailabilitySearchResult,
 } from "@/lib/availability-search";
+import { looksLikeAvailabilityIntent } from "@/lib/availability-intent";
 import { greetingAnswer } from "@/lib/answers";
 import { attachFollowUpSuggestions } from "@/lib/follow-up-suggestions";
 import { filterAnswerImages, imagesForAnswer } from "@/lib/media";
@@ -434,6 +436,28 @@ function buildAgentChatResponseBody({
         },
       };
     }
+  }
+
+  if (looksLikeAvailabilityIntent(message)) {
+    const missing = missingStayFields({
+      checkIn: null,
+      checkOut: null,
+      guests: null,
+    });
+    const payload = availabilitySearchToChatResponse({
+      status: "missing_fields",
+      missingFields: missing,
+      checkIn: null,
+      checkOut: null,
+      guests: null,
+      message: "Pick your check-in and check-out on the calendar below, then choose guest count and times.",
+    });
+    return {
+      ...payload,
+      sessionId: sessionId ?? undefined,
+      provider,
+      model,
+    };
   }
 
   const lower = message.toLowerCase();

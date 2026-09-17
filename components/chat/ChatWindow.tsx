@@ -17,6 +17,7 @@ import {
   guestContactIntro,
   type GuestContactValues,
 } from "@/lib/guest-contact";
+import { isDirectAvailabilityRequest } from "@/lib/availability-intent";
 import { hydrateGuestMessages, mergePolledGuestMessages } from "@/lib/guest-poll";
 import type { ChatResponse } from "@/lib/schemas";
 
@@ -212,6 +213,35 @@ export function ChatWindow({ onBusyChange, onNewConversation }: Props) {
     };
   }
 
+  function openAvailabilityCalendar(userMessage: string) {
+    const userEntry: ChatMessage = {
+      id: crypto.randomUUID(),
+      role: "user",
+      content: userMessage,
+    };
+    const assistantEntry: ChatMessage = {
+      id: crypto.randomUUID(),
+      role: "assistant",
+      content:
+        "Pick your check-in and check-out on the calendar below. You can set arrival times and guest count before searching.",
+      type: "availability_request",
+      intent: "availability",
+      form: {
+        type: "stay_search",
+        missingFields: ["checkIn", "checkOut", "guests"],
+        initial: {
+          checkInTime: stay.checkInTime ?? "15:00",
+          checkOutTime: stay.checkOutTime ?? "11:00",
+          guests: stay.guests ?? null,
+          checkIn: stay.checkIn ?? null,
+          checkOut: stay.checkOut ?? null,
+        },
+      },
+    };
+    setActiveFormMessageId(assistantEntry.id);
+    setMessages((current) => [...current, userEntry, assistantEntry]);
+  }
+
   function markFormSubmitted(messageId: string) {
     setMessages((current) =>
       current.map((message) =>
@@ -231,6 +261,11 @@ export function ChatWindow({ onBusyChange, onNewConversation }: Props) {
     options?: { appendUser?: boolean },
   ) {
     const source = payload.source ?? "chat";
+
+    if (source === "chat" && !payload.action && isDirectAvailabilityRequest(payload.message)) {
+      openAvailabilityCalendar(payload.message);
+      return;
+    }
     const historyMessages = payload.historyOverride ?? messages;
     const appendUser = options?.appendUser ?? true;
     const userMessage: ChatMessage =
@@ -652,7 +687,13 @@ export function ChatWindow({ onBusyChange, onNewConversation }: Props) {
               defaultGuestCount={stay.guests ?? undefined}
               onRetry={message.retryable ? retry : undefined}
               onAction={message.role === "assistant" ? runAction : undefined}
-              onSuggestion={(suggestion) => void send({ message: suggestion })}
+              onSuggestion={(suggestion) => {
+                if (isDirectAvailabilityRequest(suggestion)) {
+                  openAvailabilityCalendar(suggestion);
+                  return;
+                }
+                void send({ message: suggestion });
+              }}
               onStaySubmit={handleStaySubmit}
               onGuestSubmit={handleGuestSubmit}
               stayFormLoading={busy && loadingVariant === "rooms"}
@@ -669,7 +710,16 @@ export function ChatWindow({ onBusyChange, onNewConversation }: Props) {
           ) : null}
         </div>
         {messages.length <= 1 ? (
-          <SuggestedQuestions disabled={busy} onSelect={(question) => void send({ message: question })} />
+          <SuggestedQuestions
+            disabled={busy}
+            onSelect={(question) => {
+              if (isDirectAvailabilityRequest(question)) {
+                openAvailabilityCalendar(question);
+                return;
+              }
+              void send({ message: question });
+            }}
+          />
         ) : null}
         <div ref={bottom} />
       </div>

@@ -1,3 +1,4 @@
+import { looksLikeAvailabilityDatePrompt } from "@/lib/availability-intent";
 import type { ChatResponse } from "@/lib/schemas";
 
 export type ChatFormType = "stay_search" | "guest_contact";
@@ -19,20 +20,40 @@ export type ChatFormConfig = {
   };
 };
 
+function staySearchFormConfig(response: ChatResponse): ChatFormConfig {
+  return {
+    type: "stay_search",
+    missingFields: response.missingFields.length > 0
+      ? response.missingFields
+      : ["checkIn", "checkOut", "guests"],
+    initial: {
+      checkIn: response.data?.checkIn ?? null,
+      checkOut: response.data?.checkOut ?? null,
+      guests: response.data?.guests ?? null,
+      maxBudget: response.data?.maxBudget ?? null,
+      checkInTime: response.data?.checkInTime ?? "15:00",
+      checkOutTime: response.data?.checkOutTime ?? "11:00",
+    },
+  };
+}
+
 export function resolveChatForm(response: ChatResponse): ChatFormConfig | null {
   if (response.type === "availability_request") {
-    return {
-      type: "stay_search",
-      missingFields: response.missingFields,
-      initial: {
-        checkIn: response.data?.checkIn ?? null,
-        checkOut: response.data?.checkOut ?? null,
-        guests: response.data?.guests ?? null,
-        maxBudget: response.data?.maxBudget ?? null,
-        checkInTime: response.data?.checkInTime ?? "15:00",
-        checkOutTime: response.data?.checkOutTime ?? "11:00",
-      },
-    };
+    return staySearchFormConfig(response);
+  }
+
+  if (
+    response.type === "answer" &&
+    (response.intent === "availability" || response.availabilityRequired) &&
+    looksLikeAvailabilityDatePrompt(response.message)
+  ) {
+    return staySearchFormConfig({
+      ...response,
+      type: "availability_request",
+      missingFields: response.missingFields.length > 0
+        ? response.missingFields
+        : ["checkIn", "checkOut", "guests"],
+    });
   }
 
   const guestFields = response.missingFields.filter((field) =>
